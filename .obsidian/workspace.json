@@ -1,0 +1,414 @@
+{
+  "main": {
+    "id": "9c53402eb5799ba1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a9bddf9b95df240",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "466a4c1fc0217679",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Добро пожаловать.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Добро пожаловать"
+            }
+          },
+          {
+            "id": "3fb559c85bd42b9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/UI 🎨.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UI 🎨"
+            }
+          },
+          {
+            "id": "e2140dd4d5cc7c61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Security 🔐.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Security 🔐"
+            }
+          },
+          {
+            "id": "b0bff85ac6dcc9bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/UI 🎨.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UI 🎨"
+            }
+          },
+          {
+            "id": "1ecde9284324d09e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Multithreading 🪡.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Multithreading 🪡"
+            }
+          },
+          {
+            "id": "b69dda0e2f2204b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Architecture 🏛️.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Architecture 🏛️"
+            }
+          },
+          {
+            "id": "310de342bc3ad49c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Memory & ARC 📖.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Memory & ARC 📖"
+            }
+          },
+          {
+            "id": "2f119a912ad8edfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Добро пожаловать.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Добро пожаловать"
+            }
+          },
+          {
+            "id": "e76f058212b12782",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/UI 🎨.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UI 🎨"
+            }
+          },
+          {
+            "id": "ae39f6b2101e99a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Testing 🧪.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Testing 🧪"
+            }
+          },
+          {
+            "id": "eaed5b89fa7dd98f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Security 🔐.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Security 🔐"
+            }
+          },
+          {
+            "id": "dd3cca94209eec0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Networking 🛜.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Networking 🛜"
+            }
+          },
+          {
+            "id": "1bf45e88c2cb179e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Tooling & Project Setup 🧰.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tooling & Project Setup 🧰"
+            }
+          },
+          {
+            "id": "6b424a60df8c4521",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ios/Accessibility ♿️ & Localization 🌍/Accessibility ♿️ & Localization 🌍.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Accessibility ♿️ & Localization 🌍"
+            }
+          }
+        ],
+        "currentTab": 13
+      },
+      {
+        "id": "676ed553cc023a59",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b11aeef0c28723e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "96be323123f8989b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0968e36c14b02d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d6de7eea927caac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "eac1f12ea2894f48",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "183aa3e685d66e0c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c084690d7cd6de3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "99e11668b248aaf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ee50adfe31682f8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ios/Architecture 🏛️.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Architecture 🏛️"
+            }
+          },
+          {
+            "id": "0f42e931adef92c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ios/Architecture 🏛️.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Architecture 🏛️"
+            }
+          },
+          {
+            "id": "880e888c014478f5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "b81b53d1377e4a5d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ios/Architecture 🏛️.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Architecture 🏛️"
+            }
+          },
+          {
+            "id": "88b761076a8ab5a6",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Очередь заметок на повторение"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
+      "obsidian-kanban:Создать новую доску": false,
+      "homepage:Open homepage": false,
+      "obsidian-spaced-repetition:Изучать карточки": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "6b424a60df8c4521",
+  "lastOpenFiles": [
+    "ios/Tooling & Project Setup 🧰/Tooling & Project Setup 🧰.md",
+    "ios/UI 🎨/UI 🎨.md",
+    "ios/UI 🎨",
+    "ios/Tooling & Project Setup 🧰",
+    "ios/Networking 🛜/Networking 🛜.md",
+    "ios/Testing 🧪/Testing 🧪.md",
+    "ios/Testing 🧪",
+    "ios/Swift Concurrency & Reactive 🚀/Swift Concurrency & Reactive 🚀.md",
+    "ios/Swift Concurrency & Reactive 🚀",
+    "ios/Security 🔐/Security 🔐.md",
+    "ios/Security 🔐",
+    "ios/Persistence 📀/Persistence 📀.md",
+    "ios/CI & CD 🏗️/CI & CD 🏗️.md",
+    "ios/Persistence 📀",
+    "ios/Performance & Profiling ⚙️/Performance & Profiling ⚙️.md",
+    "ios/Performance & Profiling ⚙️",
+    "ios/Networking 🛜",
+    "ios/Multithreading 🪡/Multithreading 🪡.md",
+    "ios/Multithreading 🪡",
+    "ios/Memory & ARC 📖/Memory & ARC 📖.md",
+    "ios/Memory & ARC 📖",
+    "ios/Architecture 🏛️/Architecture 🏛️.md",
+    "ios/Accessibility ♿️ & Localization 🌍/Accessibility ♿️ & Localization 🌍.md",
+    "Добро пожаловать.md",
+    "создайте ссылку.md"
+  ]
+}
