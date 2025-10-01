@@ -1,265 +1,24 @@
 {
   "main": {
-    "id": "9c53402eb5799ba1",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "5a9bddf9b95df240",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "466a4c1fc0217679",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Добро пожаловать.md",
+                "file": "iOS/🛜 Networking/Threads/pagination-strategies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Добро пожаловать"
-            }
-          },
-          {
-            "id": "3fb559c85bd42b9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/UI 🎨.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UI 🎨"
-            }
-          },
-          {
-            "id": "e2140dd4d5cc7c61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/Security 🔐.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Security 🔐"
-            }
-          },
-          {
-            "id": "b0bff85ac6dcc9bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/UI 🎨.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UI 🎨"
-            }
-          },
-          {
-            "id": "1ecde9284324d09e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/Multithreading 🪡.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Multithreading 🪡"
-            }
-          },
-          {
-            "id": "b69dda0e2f2204b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/Architecture 🏛️.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Architecture 🏛️"
-            }
-          },
-          {
-            "id": "310de342bc3ad49c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/Memory & ARC 📖.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Memory & ARC 📖"
-            }
-          },
-          {
-            "id": "2f119a912ad8edfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Добро пожаловать.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Добро пожаловать"
-            }
-          },
-          {
-            "id": "e76f058212b12782",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/UI 🎨.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UI 🎨"
-            }
-          },
-          {
-            "id": "ae39f6b2101e99a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/Testing 🧪.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Testing 🧪"
-            }
-          },
-          {
-            "id": "eaed5b89fa7dd98f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/Security 🔐.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Security 🔐"
-            }
-          },
-          {
-            "id": "dd3cca94209eec0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/Networking 🛜.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Networking 🛜"
-            }
-          },
-          {
-            "id": "1bf45e88c2cb179e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ios/Tooling & Project Setup 🧰.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tooling & Project Setup 🧰"
-            }
-          },
-          {
-            "id": "6b424a60df8c4521",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/Accessibility ♿️ & Localization 🌍/Accessibility ♿️ & Localization 🌍.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Accessibility ♿️ & Localization 🌍"
-            }
-          },
-          {
-            "id": "bfb098b6237b4a54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/Swift Concurrency & Reactive 🚀/Swift Concurrency & Reactive 🚀.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Swift Concurrency & Reactive 🚀"
-            }
-          },
-          {
-            "id": "7d00ee8a0f2f286b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "73fadce477e2cf8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          }
-        ],
-        "currentTab": 16
-      },
-      {
-        "id": "676ed553cc023a59",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1b11aeef0c28723e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "title": "pagination-strategies"
             }
           }
         ]
@@ -383,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ios/Architecture 🏛️.md",
+                "file": "iOS/Templates/Topic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Architecture 🏛️"
+              "title": "Структура Topic"
             }
           },
           {
@@ -425,33 +184,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6d6de7eea927caac",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "iOS/Swift Concurrency & Reactive 🚀/Swift Concurrency & Reactive 🚀.md",
+    "iOS/🛜 Networking/best-practices.md",
+    "iOS/General/interview-preparation.md",
+    "iOS/General",
+    "iOS/📖 Memory & ARC/arc-mrc.md",
+    "iOS/🔐 Security/basics.md",
+    "iOS/🔤 Swift Language/algorithms.md",
+    "iOS/🛜 Networking/🛜 Networking.md",
+    "iOS/🛜 Networking/authentication.md",
+    "iOS/🛜 Networking/api-client-architecture.md",
+    "iOS/🛜 Networking/Pagination/cursor.md",
+    "iOS/🚀 Concurrency & Multithreading/🚀 Concurrency & Multithreading.md",
+    "iOS/🛜 Networking/caching.md",
+    "Без названия.md",
+    "iOS/♿️ Accessibility & Localization 🌍/♿️ Accessibility & Localization 🌍.md",
     "README.md",
-    "iOS/UI 🎨/UI 🎨.md",
-    "Добро пожаловать.md",
-    "создайте ссылку.md",
-    "iOS/Accessibility ♿️ & Localization 🌍/Accessibility ♿️ & Localization 🌍.md",
-    "iOS/Tooling & Project Setup 🧰/Tooling & Project Setup 🧰.md",
-    "iOS/UI 🎨",
-    "iOS/Tooling & Project Setup 🧰",
-    "iOS/Networking 🛜/Networking 🛜.md",
-    "iOS/Testing 🧪/Testing 🧪.md",
-    "iOS/Testing 🧪",
-    "iOS/Swift Concurrency & Reactive 🚀",
-    "iOS/Security 🔐/Security 🔐.md",
-    "iOS/Security 🔐",
-    "iOS/Persistence 📀/Persistence 📀.md",
-    "iOS/CI & CD 🏗️/CI & CD 🏗️.md",
-    "iOS/Persistence 📀",
-    "iOS/Performance & Profiling ⚙️/Performance & Profiling ⚙️.md",
-    "iOS/Performance & Profiling ⚙️",
-    "iOS/Networking 🛜",
-    "iOS/Multithreading 🪡/Multithreading 🪡.md",
-    "iOS/Multithreading 🪡",
-    "iOS/Memory & ARC 📖/Memory & ARC 📖.md",
-    "iOS/Memory & ARC 📖",
-    "iOS/Architecture 🏛️/Architecture 🏛️.md"
+    "iOS/Templates/Topic.md",
+    "iOS/Templates/Templates.md",
+    "iOS/Snippets/Snippets.md",
+    "iOS/Examples/Examples.md",
+    "iOS/Checklists/Checklists.md",
+    "iOS/Antipatterns/Antipatterns.md",
+    "iOS/ADR/ADR.md",
+    "iOS/🚀 App Store & Distribution/🚀 App Store & Distribution.md",
+    "iOS/🧰 Tooling & Project Setup/🧰 Tooling & Project Setup.md",
+    "iOS/🧪 Testing/🧪 Testing.md",
+    "iOS/🔤 Swift Language/🔤 Swift Language.md",
+    "iOS/🔐 Security/🔐 Security.md",
+    "iOS/🛜 Networking/Pagination",
+    "iOS/🛜 Networking/Threads",
+    "iOS/Topics",
+    "iOS/Templates",
+    "iOS/Snippets",
+    "iOS/ADR",
+    "iOS/Checklists",
+    "iOS/Playbooks",
+    "iOS/Antipatterns"
   ]
 }

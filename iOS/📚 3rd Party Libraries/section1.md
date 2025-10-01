@@ -1,0 +1,206 @@
+---
+title: Популярные библиотеки
+type: thread
+topics: [3rd Party Libraries]
+subtopic: section1
+status: draft
+---
+
+# Популярные библиотеки
+
+
+### Networking
+
+#### Alamofire
+- Request/Response handling
+- Parameter encoding
+- Authentication
+- Network reachability
+- Response validation
+
+#### Moya
+- Network abstraction layer
+- Type-safe network calls
+- Plugins
+- Testing
+
+### Reactive Programming
+
+#### RxSwift
+- Observables
+- Operators
+- Subjects
+- Schedulers
+- RxCocoa
+
+#### Combine (Apple)
+См. [[Swift Concurrency & Reactive 🚀]]
+
+### Image Loading
+
+#### Kingfisher
+- Async image downloading
+- Caching
+- Image processing
+- SwiftUI support
+
+#### SDWebImage
+- Image downloading
+- Memory/Disk caching
+- Animated images
+- WebP support
+
+### UI Libraries
+
+#### SnapKit
+- Auto Layout DSL
+- Constraint creation
+- Updates and remakes
+
+#### Hero
+- Custom view controller transitions
+- Matched animations
+- Interactive transitions
+
+#### Lottie
+- After Effects animations
+- JSON-based animations
+- Interactive animations
+
+### Persistence
+
+#### Realm
+- Mobile database
+- Reactive queries
+- Sync capabilities
+- Performance
+
+#### GRDB
+- SQLite wrapper
+- Type-safe queries
+- Migrations
+- Reactive extensions
+
+### Security
+
+#### KeychainAccess
+- Keychain wrapper
+- Simple API
+- iCloud sync
+
+#### CryptoSwift
+- Cryptographic functions
+- Hashing
+- Encryption/Decryption
+
+### Debugging & Logging
+
+#### SwiftyBeaver
+- Logging framework
+- Multiple destinations
+- Log levels
+- Cloud logging
+
+#### FLEX
+- In-app debugging
+- Network inspector
+- View hierarchy
+- UserDefaults editor
+
+#### CocoaLumberjack
+- Fast logging framework
+- Multiple loggers
+- Log levels and filters
+
+### Testing
+
+#### Quick & Nimble
+- BDD framework
+- Expressive matchers
+- Async testing
+
+#### OHHTTPStubs
+- Network request stubbing
+- Testing network code
+- Offline testing
+
+#### SnapshotTesting
+- Snapshot testing
+- UI regression testing
+- Multiple platforms
+
+### Analytics
+
+#### Firebase Analytics
+- Event tracking
+- User properties
+- Audiences
+- Integration
+
+#### Amplitude
+- Product analytics
+- User behavior
+- Cohort analysis
+
+### Crash Reporting
+
+#### Firebase Crashlytics
+- Crash reports
+- Non-fatal errors
+- Custom logs
+- User identification
+
+#### Sentry
+- Error tracking
+- Performance monitoring
+- Release health
+
+### Utilities
+
+#### SwiftGen
+- Code generation
+- Assets, Strings, Colors
+- Type-safe resources
+
+#### R.swift
+- Type-safe resources
+- Storyboards, Segues
+- Images, Fonts
+
+#### SwiftLint
+- Code style enforcement
+- Custom rules
+- Auto-correction
+
+### Dependency Injection
+
+#### Swinject
+- DI container
+- Auto-registration
+- Object scopes
+
+#### Resolver
+- Simple DI
+- Property wrappers
+- Type-safe registration
+
+### Date & Time
+
+#### SwiftDate
+- Date manipulation
+- Formatting
+- Time zones
+- Relative dates
+
+### JSON
+
+#### SwiftyJSON
+- JSON parsing
+- Easy access
+- Type safety
+
+#### ObjectMapper
+- Object serialization
+- JSON to object
+- Custom transforms
+

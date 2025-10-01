@@ -1,0 +1,41 @@
+---
+title: Redux/TCA (The Composable Architecture)
+type: thread
+topics: [Architecture]
+subtopic: redux-tca-the-composable-architecture
+status: draft
+---
+
+# Redux/TCA (The Composable Architecture)
+
+
+### Концепция
+- Unidirectional data flow
+- Single source of truth
+- Pure functions (Reducers)
+- Immutable state
+
+### Компоненты
+- **State**: Состояние приложения
+- **Action**: События и намерения
+- **Reducer**: Pure functions для изменения состояния
+- **Store**: Хранилище состояния
+- **Effect**: Side effects
+
+### TCA специфика
+- Composable reducers
+- Dependencies
+- Testing tools
+- SwiftUI integration
+
+### Преимущества
+- Predictable state
+- Time-travel debugging
+- Easy testing
+- State isolation
+
+### Недостатки
+- Learning curve
+- Verbose для простых случаев
+- Performance considerations
+
