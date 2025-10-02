@@ -2,7 +2,7 @@
 title: 6. Migration & Best Practices
 type: thread
 topics: [Concurrency & Multithreading]
-subtopic: 6-migration-best-practices
+subtopic: 6. Migration & Best Practices
 status: draft
 ---
 

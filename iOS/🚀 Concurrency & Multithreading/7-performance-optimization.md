@@ -2,7 +2,7 @@
 title: 7. Performance & Optimization
 type: thread
 topics: [Concurrency & Multithreading]
-subtopic: 7-performance-optimization
+subtopic: 7. Performance & Optimization
 status: draft
 ---
 

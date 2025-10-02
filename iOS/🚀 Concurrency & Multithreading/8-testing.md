@@ -2,7 +2,7 @@
 title: 8. Testing
 type: thread
 topics: [Concurrency & Multithreading]
-subtopic: 8-testing
+subtopic: 8. Testing
 status: draft
 ---
 

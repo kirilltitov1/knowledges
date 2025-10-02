@@ -2,7 +2,7 @@
 title: 5. Reactive Programming
 type: thread
 topics: [Concurrency & Multithreading]
-subtopic: 5-reactive-programming
+subtopic: 5. Reactive Programming
 status: draft
 ---
 

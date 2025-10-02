@@ -2,7 +2,7 @@
 title: ARC vs MRC
 type: thread
 topics: [Memory & ARC]
-subtopic: arc-mrc
+subtopic: ARC & MRC
 status: draft
 ---
 

@@ -2,7 +2,7 @@
 title: WebSocket
 type: thread
 topics: [Networking]
-subtopic: websocket
+subtopic: WebSocket
 status: draft
 ---
 

@@ -1,8 +1,8 @@
-# 📖 Memory & ARC
+# 🛜 Networking
 
 ```dataviewjs
-const pages = dv.pages('"iOS/📖 Memory & ARC"')
-    .where(p => p.file.name !== "📖 Memory & ARC");
+const pages = dv.pages('"iOS/🛜 Networking"')
+    .where(p => p.file.name !== "🛜 Networking");
 
 // Группируем по subtopic
 const grouped = pages.groupBy(p => p.subtopic || "Разное");
@@ -19,4 +19,3 @@ for (let group of sortedGroups) {
     );
 }
 ```
-

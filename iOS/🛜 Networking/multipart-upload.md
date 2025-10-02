@@ -2,7 +2,7 @@
 title: Multipart Upload
 type: thread
 topics: [Networking]
-subtopic: multipart-upload
+subtopic: Multipart Upload
 status: draft
 ---
 

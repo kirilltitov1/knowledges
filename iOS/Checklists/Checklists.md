@@ -1,21 +1,21 @@
----
-title: Checklists
-type: index
----
-
 # Checklists
 
-**Что это**: контрольные списки для релиза, ревью, оптимизации.
+```dataviewjs
+const pages = dv.pages('"iOS/Checklists"')
+    .where(p => p.file.name !== "Checklists");
 
-**Для чего**: ничего не забыть, стандартизировать качество.
+// Группируем по subtopic
+const grouped = pages.groupBy(p => p.subtopic || "Разное");
 
-**Содержимое**: чеклисты с пунктами, критериями готовности.
+// Сортируем группы
+const sortedGroups = grouped.sort(g => g.key);
 
-**Как пользоваться**: проходите список перед релизом/мерджем/демо.
-
-```dataview
-LIST
-FROM "iOS/Checklists"
-WHERE file.name != "Checklists" AND file.name != "README"
-SORT file.name ASC
+// Выводим каждую группу
+for (let group of sortedGroups) {
+    dv.header(3, group.key);
+    dv.list(group.rows
+        .sort(p => p.title || p.file.name)
+        .map(p => dv.fileLink(p.file.path, false, p.title || p.file.name))
+    );
+}
 ```

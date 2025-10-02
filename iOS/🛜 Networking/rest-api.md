@@ -2,7 +2,7 @@
 title: REST API
 type: thread
 topics: [Networking]
-subtopic: rest
+subtopic: REST API
 status: draft
 ---
 

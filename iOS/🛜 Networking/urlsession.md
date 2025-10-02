@@ -2,7 +2,7 @@
 title: URLSession
 type: thread
 topics: [Networking]
-subtopic: urlsession
+subtopic: URLSession
 status: draft
 ---
 

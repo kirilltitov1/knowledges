@@ -2,7 +2,7 @@
 title: Best Practices
 type: thread
 topics: [Concurrency & Multithreading]
-subtopic: best-practices
+subtopic: Best Practices
 status: draft
 ---
 

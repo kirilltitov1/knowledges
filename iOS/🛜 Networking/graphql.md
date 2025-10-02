@@ -1,8 +1,9 @@
 ---
 title: GraphQL
 type: thread
-topics: [Networking]
-subtopic: graphql
+topics:
+  - Networking
+subtopic: GraphQL
 status: draft
 ---
 

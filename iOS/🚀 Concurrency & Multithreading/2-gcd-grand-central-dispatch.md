@@ -2,7 +2,7 @@
 title: 2. GCD (Grand Central Dispatch)
 type: thread
 topics: [Concurrency & Multithreading]
-subtopic: 2-gcd-grand-central-dispatch
+subtopic: 2. GCD (Grand Central Dispatch)
 status: draft
 ---
 

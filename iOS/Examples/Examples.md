@@ -1,21 +1,21 @@
----
-title: Examples
-type: index
----
-
 # Examples
 
-**Что это**: коллекция полноценных и минимальных примеров кода.
+```dataviewjs
+const pages = dv.pages('"iOS/Examples"')
+    .where(p => p.file.name !== "Examples");
 
-**Для чего**: быстро вспомнить подход, показать коллеге/на собеседовании, стартовать от эталона.
+// Группируем по subtopic
+const grouped = pages.groupBy(p => p.subtopic || "Разное");
 
-**Содержимое**: подпапки по доменам (networking, architecture, concurrency, ui, persistence и т.д.). В крупных кейсах — мини Xcode проекты.
+// Сортируем группы
+const sortedGroups = grouped.sort(g => g.key);
 
-**Как пользоваться**: открывайте нужный пример, читайте `README.md`, запускайте проект или копируйте сниппеты.
-
-```dataview
-LIST
-FROM "iOS/Examples"
-WHERE file.name != "Examples" AND file.name != "README"
-SORT file.name ASC
+// Выводим каждую группу
+for (let group of sortedGroups) {
+    dv.header(3, group.key);
+    dv.list(group.rows
+        .sort(p => p.title || p.file.name)
+        .map(p => dv.fileLink(p.file.path, false, p.title || p.file.name))
+    );
+}
 ```

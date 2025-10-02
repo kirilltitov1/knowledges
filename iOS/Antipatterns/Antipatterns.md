@@ -1,21 +1,21 @@
----
-title: Antipatterns
-type: index
----
-
 # Antipatterns
 
-**Что это**: каталог типичных ошибок и анти-паттернов с объяснениями и исправлениями.
+```dataviewjs
+const pages = dv.pages('"iOS/Antipatterns"')
+    .where(p => p.file.name !== "Antipatterns");
 
-**Для чего**: быстро узнать почему подход плох, как диагностировать и как сделать правильно.
+// Группируем по subtopic
+const grouped = pages.groupBy(p => p.subtopic || "Разное");
 
-**Содержимое**: заметки с проблемой, последствиями, диагностикой (инструменты), правильным решением, примерами кода.
+// Сортируем группы
+const sortedGroups = grouped.sort(g => g.key);
 
-**Как пользоваться**: ищите по теме/тегам, применяйте предложенные исправления.
-
-```dataview
-LIST
-FROM "iOS/Antipatterns"
-WHERE file.name != "Antipatterns" AND file.name != "README"
-SORT file.name ASC
+// Выводим каждую группу
+for (let group of sortedGroups) {
+    dv.header(3, group.key);
+    dv.list(group.rows
+        .sort(p => p.title || p.file.name)
+        .map(p => dv.fileLink(p.file.path, false, p.title || p.file.name))
+    );
+}
 ```

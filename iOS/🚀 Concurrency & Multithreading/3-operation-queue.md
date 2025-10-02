@@ -2,7 +2,7 @@
 title: 3. Operation Queue
 type: thread
 topics: [Concurrency & Multithreading]
-subtopic: 3-operation-queue
+subtopic: 3. Operation Queue
 status: draft
 ---
 

@@ -1,26 +1,21 @@
----
-title: ADR
-type: index
----
+# ADR
 
-# ADR (Architectural Decision Records)
+```dataviewjs
+const pages = dv.pages('"iOS/ADR"')
+    .where(p => p.file.name !== "ADR");
 
-**Что это**: краткие записи архитектурных решений (какую опцию выбрали и почему).
+// Группируем по subtopic
+const grouped = pages.groupBy(p => p.subtopic || "Разное");
 
-**Для чего**: сохранять контекст решений, чтобы через месяцы помнить причины и альтернативы.
+// Сортируем группы
+const sortedGroups = grouped.sort(g => g.key);
 
-**Формат** (рекомендуемый):
-- Контекст
-- Решение
-- Альтернативы
-- Последствия
-- Ссылки/источники
-
-**Когда писать**: при выборе значимых подходов — DI/координаторы, сеть, кэширование, логирование, тестовая стратегия и т.д.
-
-```dataview
-LIST
-FROM "iOS/ADR"
-WHERE file.name != "ADR" AND file.name != "README"
-SORT file.ctime DESC
+// Выводим каждую группу
+for (let group of sortedGroups) {
+    dv.header(3, group.key);
+    dv.list(group.rows
+        .sort(p => p.title || p.file.name)
+        .map(p => dv.fileLink(p.file.path, false, p.title || p.file.name))
+    );
+}
 ```

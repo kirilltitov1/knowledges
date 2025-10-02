@@ -2,7 +2,7 @@
 title: Security Basics
 type: thread
 topics: [Security]
-subtopic: basics
+subtopic: Basics
 status: draft
 ---
 

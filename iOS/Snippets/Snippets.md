@@ -1,21 +1,21 @@
----
-title: Snippets
-type: index
----
-
 # Snippets
 
-**Что это**: короткие фрагменты кода для повседневных задач.
+```dataviewjs
+const pages = dv.pages('"iOS/Snippets"')
+    .where(p => p.file.name !== "Snippets");
 
-**Для чего**: быстро вставить проверенный кусок без поиска.
+// Группируем по subtopic
+const grouped = pages.groupBy(p => p.subtopic || "Разное");
 
-**Содержимое**: однофайловые заметки с кратким описанием.
+// Сортируем группы
+const sortedGroups = grouped.sort(g => g.key);
 
-**Как пользоваться**: копируйте в проект, адаптируйте имена/типы.
-
-```dataview
-LIST
-FROM "iOS/Snippets"
-WHERE file.name != "Snippets" AND file.name != "README"
-SORT file.name ASC
+// Выводим каждую группу
+for (let group of sortedGroups) {
+    dv.header(3, group.key);
+    dv.list(group.rows
+        .sort(p => p.title || p.file.name)
+        .map(p => dv.fileLink(p.file.path, false, p.title || p.file.name))
+    );
+}
 ```

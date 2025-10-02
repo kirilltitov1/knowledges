@@ -1,8 +1,9 @@
 ---
 title: Image Loading
 type: thread
-topics: [Networking]
-subtopic: image-loading
+topics:
+  - Networking
+subtopic: Image Loading
 status: draft
 ---
 

@@ -2,7 +2,7 @@
 title: Network Reachability
 type: thread
 topics: [Networking]
-subtopic: reachability
+subtopic: Reachability
 status: draft
 ---
 

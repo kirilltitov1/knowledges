@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/🛜 Networking/Threads/pagination-strategies.md",
+                "file": "iOS/🚀 Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2-gcd-grand-central-dispatch"
+            }
+          },
+          {
+            "id": "d926f4c46f5ffe88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iOS/📖 Memory & ARC/arc-mrc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pagination-strategies"
+              "title": "arc-mrc"
+            }
+          },
+          {
+            "id": "aa72a4e9b0b7eeb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Экзистанциальные контейнеры.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Экзистанциальные контейнеры"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5
   },
   "right": {
     "id": "c084690d7cd6de3c",
@@ -184,43 +213,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "aa72a4e9b0b7eeb5",
   "lastOpenFiles": [
-    "iOS/🛜 Networking/best-practices.md",
-    "iOS/General/interview-preparation.md",
-    "iOS/General",
-    "iOS/📖 Memory & ARC/arc-mrc.md",
-    "iOS/🔐 Security/basics.md",
-    "iOS/🔤 Swift Language/algorithms.md",
-    "iOS/🛜 Networking/🛜 Networking.md",
-    "iOS/🛜 Networking/authentication.md",
-    "iOS/🛜 Networking/api-client-architecture.md",
-    "iOS/🛜 Networking/Pagination/cursor.md",
-    "iOS/🚀 Concurrency & Multithreading/🚀 Concurrency & Multithreading.md",
-    "iOS/🛜 Networking/caching.md",
+    "iOS/📥 Inbox.md",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Экзистанциальные контейнеры.md",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad/UserInterfaceState.xcuserstate",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/contents.xcworkspacedata",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/contents.xcplayground",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/Contents.swift",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры",
     "Без названия.md",
-    "iOS/♿️ Accessibility & Localization 🌍/♿️ Accessibility & Localization 🌍.md",
-    "README.md",
-    "iOS/Templates/Topic.md",
+    "iOS/Templates/Example.md",
     "iOS/Templates/Templates.md",
-    "iOS/Snippets/Snippets.md",
-    "iOS/Examples/Examples.md",
-    "iOS/Checklists/Checklists.md",
-    "iOS/Antipatterns/Antipatterns.md",
-    "iOS/ADR/ADR.md",
-    "iOS/🚀 App Store & Distribution/🚀 App Store & Distribution.md",
-    "iOS/🧰 Tooling & Project Setup/🧰 Tooling & Project Setup.md",
-    "iOS/🧪 Testing/🧪 Testing.md",
-    "iOS/🔤 Swift Language/🔤 Swift Language.md",
-    "iOS/🔐 Security/🔐 Security.md",
-    "iOS/🛜 Networking/Pagination",
-    "iOS/🛜 Networking/Threads",
-    "iOS/Topics",
-    "iOS/Templates",
-    "iOS/Snippets",
-    "iOS/ADR",
-    "iOS/Checklists",
-    "iOS/Playbooks",
-    "iOS/Antipatterns"
+    "Безымянная Kanban-доска.md",
+    "README.md",
+    "iOS/📖 Memory & ARC/arc-mrc.md",
+    "iOS/📖 Memory & ARC/📖 Memory & ARC.md",
+    "iOS/📚 3rd Party Libraries/Популярные библиотеки.md",
+    "iOS/📚 3rd Party Libraries/dependency-managers.md",
+    "iOS/📚 3rd Party Libraries/best-practices.md",
+    "iOS/Topics/Swift Language.md",
+    "iOS/📑 Index.md",
+    "iOS/Topics/Design Patterns.md",
+    "iOS/Topics/App Lifecycle & Scenes.md",
+    "iOS/Index.md",
+    "iOS/🚀 Concurrency & Multithreading/Проблемы многопоточности.md",
+    "iOS/🚀 Concurrency & Multithreading/Проблемы многопоточности/Deadlock.md",
+    "iOS/🚀 Concurrency & Multithreading/Проблемы многопоточности/Livelock.md",
+    "iOS/🚀 Concurrency & Multithreading/Проблемы многопоточности/Livelock/Livelock.md",
+    "iOS/🚀 Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
+    "iOS/🚀 Concurrency & Multithreading/4-swift-concurrency-modern-approach.md",
+    "iOS/🚀 Concurrency & Multithreading/1.md",
+    "iOS/🚀 Concurrency & Multithreading/🚀 Concurrency & Multithreading.md",
+    "iOS/🚀 Concurrency & Multithreading/8-testing.md"
   ]
 }

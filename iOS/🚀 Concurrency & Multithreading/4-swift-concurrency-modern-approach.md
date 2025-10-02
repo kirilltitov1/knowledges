@@ -2,7 +2,7 @@
 title: 4. Swift Concurrency (Modern Approach)
 type: thread
 topics: [Concurrency & Multithreading]
-subtopic: 4-swift-concurrency-modern-approach
+subtopic: 4. Swift Concurrency
 status: draft
 ---
 

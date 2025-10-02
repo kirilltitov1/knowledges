@@ -1,21 +1,21 @@
----
-title: Playbooks
-type: index
----
-
 # Playbooks
 
-**Что это**: пошаговые руководства «как сделать X» (настройки, миграции, интеграции).
+```dataviewjs
+const pages = dv.pages('"iOS/Playbooks"')
+    .where(p => p.file.name !== "Playbooks");
 
-**Для чего**: быстро выполнить рутинную/редкую процедуру без провалов в памяти.
+// Группируем по subtopic
+const grouped = pages.groupBy(p => p.subtopic || "Разное");
 
-**Содержимое**: последовательные шаги, проверки успеха, типичные ошибки.
+// Сортируем группы
+const sortedGroups = grouped.sort(g => g.key);
 
-**Как пользоваться**: следуйте шагам, отмечайте чекбоксы, используйте ссылки на примеры.
-
-```dataview
-LIST
-FROM "iOS/Playbooks"
-WHERE file.name != "Playbooks" AND file.name != "README"
-SORT file.name ASC
+// Выводим каждую группу
+for (let group of sortedGroups) {
+    dv.header(3, group.key);
+    dv.list(group.rows
+        .sort(p => p.title || p.file.name)
+        .map(p => dv.fileLink(p.file.path, false, p.title || p.file.name))
+    );
+}
 ```

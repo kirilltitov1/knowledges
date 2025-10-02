@@ -1,9 +1,21 @@
+# 🚀 Concurrency & Multithreading
 
-```dataview
-TABLE WITHOUT ID link(file.path, default(title, file.name)) AS "Заметка", default(subtopic, "misc") AS "Тема", type, status
-FROM "iOS"
-WHERE contains(topics, "Concurrency & Multithreading") AND (type = "thread" OR type = "example" OR type = "antipattern")
-FLATTEN default(subtopic, "misc") AS subtopic
-SORT subtopic ASC, default(title, file.name) ASC
+```dataviewjs
+const pages = dv.pages('"iOS/🚀 Concurrency & Multithreading"')
+    .where(p => p.file.name !== "🚀 Concurrency & Multithreading");
+
+// Группируем по subtopic
+const grouped = pages.groupBy(p => p.subtopic || "Разное");
+
+// Сортируем группы
+const sortedGroups = grouped.sort(g => g.key);
+
+// Выводим каждую группу
+for (let group of sortedGroups) {
+    dv.header(3, group.key);
+    dv.list(group.rows
+        .sort(p => p.title || p.file.name)
+        .map(p => dv.fileLink(p.file.path, false, p.title || p.file.name))
+    );
+}
 ```
-
