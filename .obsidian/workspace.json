@@ -215,6 +215,7 @@
   },
   "active": "aa72a4e9b0b7eeb5",
   "lastOpenFiles": [
+    "iOS/🧰 Tooling & Project Setup/git.md",
     "iOS/📥 Inbox.md",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Экзистанциальные контейнеры.md",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad/UserInterfaceState.xcuserstate",
@@ -249,7 +250,6 @@
     "iOS/🚀 Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
     "iOS/🚀 Concurrency & Multithreading/4-swift-concurrency-modern-approach.md",
     "iOS/🚀 Concurrency & Multithreading/1.md",
-    "iOS/🚀 Concurrency & Multithreading/🚀 Concurrency & Multithreading.md",
-    "iOS/🚀 Concurrency & Multithreading/8-testing.md"
+    "iOS/🚀 Concurrency & Multithreading/🚀 Concurrency & Multithreading.md"
   ]
 }
