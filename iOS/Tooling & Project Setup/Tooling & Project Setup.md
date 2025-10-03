@@ -1,8 +1,7 @@
-# 🚀 Concurrency & Multithreading
 
 ```dataviewjs
-const pages = dv.pages('"iOS/🚀 Concurrency & Multithreading"')
-    .where(p => p.file.name !== "🚀 Concurrency & Multithreading");
+const pages = dv.pages('"iOS/Tooling & Project Setup"')
+    .where(p => p.file.name !== "Tooling & Project Setup");
 
 // Группируем по subtopic
 const grouped = pages.groupBy(p => p.subtopic || "Разное");

@@ -1,8 +1,7 @@
-# 🛜 Networking
 
 ```dataviewjs
-const pages = dv.pages('"iOS/🛜 Networking"')
-    .where(p => p.file.name !== "🛜 Networking");
+const pages = dv.pages('"iOS/App Store & Distribution"')
+    .where(p => p.file.name !== "App Store & Distribution");
 
 // Группируем по subtopic
 const grouped = pages.groupBy(p => p.subtopic || "Разное");

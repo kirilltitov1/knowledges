@@ -11,10 +11,14 @@
             "id": "5f7a7dc647b9d601",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "iOS/Accessibility & Localization/Accessibility & Localization.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Accessibility & Localization"
             }
           }
         ]
@@ -109,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "iOS/Accessibility & Localization/Accessibility & Localization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для Accessibility & Localization"
             }
           },
           {
@@ -127,11 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "iOS/Accessibility & Localization/Accessibility & Localization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из Accessibility & Localization"
             }
           },
           {
@@ -226,6 +232,11 @@
   },
   "active": "5f7a7dc647b9d601",
   "lastOpenFiles": [
+    "iOS/Tooling & Project Setup/Tooling & Project Setup.md",
+    "iOS/App Store & Distribution/App Store & Distribution.md",
+    "iOS/ADR/ADR.md",
+    "iOS/Concurrency & Multithreading/Concurrency & Multithreading.md",
+    "iOS/Networking/Networking.md",
     "Без названия.md",
     "2025-10-04.md",
     "Безымянная Kanban-доска 1.md",
@@ -238,15 +249,15 @@
     "Без названия 1.canvas",
     "Без названия.base",
     "Без названия.canvas",
-    "iOS/🚀 Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
+    "iOS/Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
     "iOS/📖 Memory & ARC/📖 Memory & ARC.md",
     "iOS/📖 Memory & ARC/arc-mrc.md",
-    "iOS/🏛️ Architecture/redux-tca-the-composable-architecture.md",
-    "iOS/🏛️ Architecture/clean-architecture.md",
-    "iOS/🏛️ Architecture/best-practices.md",
-    "iOS/🏛️ Architecture/Примеры с собесов/Дизайн заправки.md",
+    "iOS/Architecture/redux-tca-the-composable-architecture.md",
+    "iOS/Architecture/clean-architecture.md",
+    "iOS/Architecture/best-practices.md",
+    "iOS/Architecture/Примеры с собесов/Дизайн заправки.md",
     "iOS/🔐 Security/basics.md",
-    "iOS/🏛️ Architecture/Примеры с собесов",
+    "iOS/Architecture/Примеры с собесов",
     "iOS/🔐 Security/SSL pinning",
     "iOS/🔤 Swift Language/🔤 Swift Language.md",
     "iOS/Examples/custom-notification-center.md",
@@ -255,16 +266,12 @@
     "iOS/📚 3rd Party Libraries/Best Practices.md",
     "iOS/📚 3rd Party Libraries/Выбор библиотек.md",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Экзистанциальные контейнеры.md",
-    "iOS/🧰 Tooling & Project Setup/git.md",
-    "iOS/📥 Inbox.md",
+    "iOS/Tooling & Project Setup/git.md",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad/UserInterfaceState.xcuserstate",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/contents.xcworkspacedata",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/contents.xcplayground",
-    "iOS/Templates/Templates.md",
-    "iOS/📚 3rd Party Libraries/Популярные библиотеки.md",
-    "iOS/Topics/Swift Language.md"
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/contents.xcplayground"
   ]
 }

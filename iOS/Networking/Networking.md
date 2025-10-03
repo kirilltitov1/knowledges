@@ -1,8 +1,7 @@
-# 🚀 App Store & Distribution
 
 ```dataviewjs
-const pages = dv.pages('"iOS/🚀 App Store & Distribution"')
-    .where(p => p.file.name !== "🚀 App Store & Distribution");
+const pages = dv.pages('"iOS/Networking"')
+    .where(p => p.file.name !== "Networking");
 
 // Группируем по subtopic
 const grouped = pages.groupBy(p => p.subtopic || "Разное");
@@ -19,4 +18,3 @@ for (let group of sortedGroups) {
     );
 }
 ```
-

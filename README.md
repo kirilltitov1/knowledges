@@ -10,7 +10,7 @@
 ### 🎨 [UI](iOS/🎨%20UI/🎨%20UI.md)
 Интерфейс пользователя: UIKit, SwiftUI, Auto Layout, анимации и визуальные эффекты.
 
-### 🏛️ [Architecture](iOS/🏛️%20Architecture/🏛️%20Architecture.md)
+### 🏛️ [Architecture](iOS/Architecture/Architecture.md)
 Архитектурные паттерны: MVC, MVVM, VIPER, Clean Architecture, Coordinator.
 
 ### 🎭 [Design Patterns](iOS/🎭%20Design%20Patterns/🎭%20Design%20Patterns.md)
@@ -22,10 +22,10 @@
 ### 📦 [iOS SDK & Frameworks](iOS/📦%20iOS%20SDK%20&%20Frameworks/📦%20iOS%20SDK%20&%20Frameworks.md)
 Foundation, Core Animation, Core Graphics, Core Location, MapKit, AVFoundation, HealthKit, ARKit и другие фреймворки.
 
-### 🚀 [Concurrency & Multithreading](iOS/🚀%20Concurrency%20&%20Multithreading/🚀%20Concurrency%20&%20Multithreading.md)
+### 🚀 [Concurrency & Multithreading](iOS/Concurrency%20&%20Multithreading/Concurrency%20&%20Multithreading.md)
 Многопоточность и асинхронность: GCD, Operation Queue, Async/Await, Actors, Combine, RxSwift.
 
-### 🛜 [Networking](iOS/🛜%20Networking/🛜%20Networking.md)
+### 🛜 [Networking](iOS/Networking/Networking.md)
 Сетевые запросы: URLSession, REST API, GraphQL, WebSocket, обработка ошибок.
 
 ### 📀 [Persistence](iOS/📀%20Persistence/📀%20Persistence.md)
@@ -46,19 +46,19 @@ Foundation, Core Animation, Core Graphics, Core Location, MapKit, AVFoundation, 
 ### 🐛 [Debugging](iOS/🐛%20Debugging/🐛%20Debugging.md)
 Отладка: LLDB, breakpoints, memory debugging, crash analysis, Instruments.
 
-### ♿️ [Accessibility & Localization](iOS/♿️%20Accessibility%20&%20Localization%20🌍/♿️%20Accessibility%20&%20Localization%20🌍.md)
+### ♿️ [Accessibility & Localization](iOS/Accessibility%20&%20Localization/Accessibility%20&%20Localization.md)
 Доступность приложений и локализация для разных языков и регионов.
 
 ### 📚 [3rd Party Libraries](iOS/📚%203rd%20Party%20Libraries/📚%203rd%20Party%20Libraries.md)
 Популярные библиотеки: Alamofire, RxSwift, SnapKit, Kingfisher, Realm и менеджеры зависимостей (SPM, CocoaPods, Carthage).
 
-### 🧰 [Tooling & Project Setup](iOS/🧰%20Tooling%20&%20Project%20Setup/🧰%20Tooling%20&%20Project%20Setup.md)
+### 🧰 [Tooling & Project Setup](iOS/Tooling%20&%20Project%20Setup/Tooling%20&%20Project%20Setup.md)
 Инструменты разработки: Xcode, настройка проектов, build configurations, схемы.
 
 ### 🏗️ [CI & CD](iOS/🏗️%20CI%20&%20CD/🏗️%20CI%20&%20CD.md)
 Непрерывная интеграция и развертывание: Fastlane, GitHub Actions, Bitrise.
 
-### 🚀 [App Store & Distribution](iOS/🚀%20App%20Store%20&%20Distribution/🚀%20App%20Store%20&%20Distribution.md)
+### 🚀 [App Store & Distribution](iOS/App%20Store%20&%20Distribution/App%20Store%20&%20Distribution.md)
 Публикация приложений: App Store Connect, TestFlight, сертификаты, In-App Purchases, ASO.
 
 ---
@@ -75,7 +75,7 @@ Foundation, Core Animation, Core Graphics, Core Location, MapKit, AVFoundation, 
 ## 🚀 Быстрый старт
 
 1. **Начинающим**: Начните с [[🔤 Swift Language]] и [[🎨 UI]]
-2. **Средний уровень**: Изучите [[🏛️ Architecture]], [[🎭 Design Patterns]] и [[🚀 Concurrency & Multithreading]]
+2. **Средний уровень**: Изучите [[iOS/Architecture/Architecture]], [[🎭 Design Patterns]] и [[iOS/Concurrency & Multithreading/Concurrency & Multithreading]]
 3. **Продвинутый**: Углубитесь в [[⚙️ Performance & Profiling]], [[📖 Memory & ARC]] и [[🔐 Security]]
 
 ## 📝 Как использовать

@@ -1,8 +1,7 @@
-# ♿️ Accessibility & Localization 🌍
 
 ```dataviewjs
-const pages = dv.pages('"iOS/♿️ Accessibility & Localization 🌍"')
-    .where(p => p.file.name !== "♿️ Accessibility & Localization 🌍");
+const pages = dv.pages('"iOS/Concurrency & Multithreading"')
+    .where(p => p.file.name !== "Concurrency & Multithreading");
 
 // Группируем по subtopic
 const grouped = pages.groupBy(p => p.subtopic || "Разное");

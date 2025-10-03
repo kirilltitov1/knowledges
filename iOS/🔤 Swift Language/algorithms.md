@@ -369,7 +369,7 @@ isValid("([)]") // false
 
 ## См. также
 - [[🔤 Swift Language]] — Язык Swift
-- [[best-practices]] — Лучшие практики
+- [[iOS/🔤 Swift Language/best-practices]] — Лучшие практики
 - [[functional-programming]] — Функциональное программирование
 
 
