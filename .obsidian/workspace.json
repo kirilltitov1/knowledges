@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "a69181c8b2496aac",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "5f7a7dc647b9d601",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/🚀 Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2-gcd-grand-central-dispatch"
-            }
-          },
-          {
-            "id": "d926f4c46f5ffe88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/📖 Memory & ARC/arc-mrc.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "arc-mrc"
-            }
-          },
-          {
-            "id": "aa72a4e9b0b7eeb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Экзистанциальные контейнеры.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Экзистанциальные контейнеры"
+              "title": "Новая вкладка"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,6 +29,7 @@
       {
         "id": "e0968e36c14b02d1",
         "type": "tabs",
+        "dimension": 68.4331797235023,
         "children": [
           {
             "id": "6d6de7eea927caac",
@@ -104,6 +72,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "f96e5a4a43bdcfb2",
+        "type": "tabs",
+        "dimension": 31.566820276497698,
+        "children": [
+          {
+            "id": "aa72a4e9b0b7eeb5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -116,6 +101,7 @@
       {
         "id": "99e11668b248aaf4",
         "type": "tabs",
+        "dimension": 61.75824175824176,
         "children": [
           {
             "id": "0ee50adfe31682f8",
@@ -123,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ios/Architecture 🏛️.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Architecture 🏛️"
+              "title": "Обратные ссылки"
             }
           },
           {
@@ -142,12 +127,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ios/Architecture 🏛️.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Architecture 🏛️"
+              "title": "Исходящие ссылки"
             }
           },
           {
@@ -189,19 +173,44 @@
               "icon": "SpacedRepIcon",
               "title": "Очередь заметок на повторение"
             }
+          },
+          {
+            "id": "f0fe9263f9eb060f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
+      },
+      {
+        "id": "239f5ca6dc77fae9",
+        "type": "tabs",
+        "dimension": 38.24175824175824,
+        "children": [
+          {
+            "id": "c214c7c9be3dc4eb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
@@ -210,46 +219,52 @@
       "obsidian-kanban:Создать новую доску": false,
       "homepage:Open homepage": false,
       "obsidian-spaced-repetition:Изучать карточки": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "graph:Граф": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "aa72a4e9b0b7eeb5",
+  "active": "5f7a7dc647b9d601",
   "lastOpenFiles": [
+    "Без названия.md",
+    "2025-10-04.md",
+    "Безымянная Kanban-доска 1.md",
+    "README.md",
+    "Безымянная Kanban-доска.md",
+    "Без названия 4.canvas",
+    "Без названия 3.canvas",
+    "Без названия 2.canvas",
+    "Без названия 1.base",
+    "Без названия 1.canvas",
+    "Без названия.base",
+    "Без названия.canvas",
+    "iOS/🚀 Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
+    "iOS/📖 Memory & ARC/📖 Memory & ARC.md",
+    "iOS/📖 Memory & ARC/arc-mrc.md",
+    "iOS/🏛️ Architecture/redux-tca-the-composable-architecture.md",
+    "iOS/🏛️ Architecture/clean-architecture.md",
+    "iOS/🏛️ Architecture/best-practices.md",
+    "iOS/🏛️ Architecture/Примеры с собесов/Дизайн заправки.md",
+    "iOS/🔐 Security/basics.md",
+    "iOS/🏛️ Architecture/Примеры с собесов",
+    "iOS/🔐 Security/SSL pinning",
+    "iOS/🔤 Swift Language/🔤 Swift Language.md",
+    "iOS/Examples/custom-notification-center.md",
+    "iOS/Templates/Example.md",
+    "iOS/📚 3rd Party Libraries/Dependency Managers.md",
+    "iOS/📚 3rd Party Libraries/Best Practices.md",
+    "iOS/📚 3rd Party Libraries/Выбор библиотек.md",
+    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Экзистанциальные контейнеры.md",
     "iOS/🧰 Tooling & Project Setup/git.md",
     "iOS/📥 Inbox.md",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Экзистанциальные контейнеры.md",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad/UserInterfaceState.xcuserstate",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/contents.xcworkspacedata",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace",
     "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/contents.xcplayground",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/Contents.swift",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры",
-    "Без названия.md",
-    "iOS/Templates/Example.md",
     "iOS/Templates/Templates.md",
-    "Безымянная Kanban-доска.md",
-    "README.md",
-    "iOS/📖 Memory & ARC/arc-mrc.md",
-    "iOS/📖 Memory & ARC/📖 Memory & ARC.md",
     "iOS/📚 3rd Party Libraries/Популярные библиотеки.md",
-    "iOS/📚 3rd Party Libraries/dependency-managers.md",
-    "iOS/📚 3rd Party Libraries/best-practices.md",
-    "iOS/Topics/Swift Language.md",
-    "iOS/📑 Index.md",
-    "iOS/Topics/Design Patterns.md",
-    "iOS/Topics/App Lifecycle & Scenes.md",
-    "iOS/Index.md",
-    "iOS/🚀 Concurrency & Multithreading/Проблемы многопоточности.md",
-    "iOS/🚀 Concurrency & Multithreading/Проблемы многопоточности/Deadlock.md",
-    "iOS/🚀 Concurrency & Multithreading/Проблемы многопоточности/Livelock.md",
-    "iOS/🚀 Concurrency & Multithreading/Проблемы многопоточности/Livelock/Livelock.md",
-    "iOS/🚀 Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
-    "iOS/🚀 Concurrency & Multithreading/4-swift-concurrency-modern-approach.md",
-    "iOS/🚀 Concurrency & Multithreading/1.md",
-    "iOS/🚀 Concurrency & Multithreading/🚀 Concurrency & Multithreading.md"
+    "iOS/Topics/Swift Language.md"
   ]
 }

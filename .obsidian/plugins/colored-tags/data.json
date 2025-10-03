@@ -1,0 +1,23 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "urlsession": 1,
+    "async-await": 2,
+    "endpoint": 3,
+    "if": 4,
+    "observer-pattern": 5,
+    "type-safe": 6,
+    "notifications": 7,
+    "event-bus": 8
+  },
+  "_version": 3
+}

@@ -6,9 +6,6 @@ subtopic: best-practices
 status: draft
 ---
 
-# Best Practices
-
-
 - Минимизация зависимостей
 - Регулярные обновления
 - Security audits
