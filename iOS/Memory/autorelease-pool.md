@@ -1,9 +1,14 @@
 ---
 title: Autorelease Pool
-type: topic
-topics: [Memory & ARC]
+type: thread
+topics: [Memory Management, ARC]
 subtopic: ARC & MRC
 status: draft
+level: advanced
+platforms: [iOS, macOS, watchOS, tvOS]
+ios_min: "10.0"
+duration: 45m
+tags: [autorelease-pool, memory-management, objc-runtime, retain-cycles, performance-optimization]
 ---
 
 # Autorelease Pool
