@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a69181c8b2496aac",
+        "id": "d557d3775e6c828d",
         "type": "tabs",
         "children": [
           {
-            "id": "5f7a7dc647b9d601",
+            "id": "2a20f825e02485c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iOS/Accessibility & Localization/Accessibility & Localization.md",
+                "file": "Templates/iOS System Design/Super App — iOS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Accessibility & Localization"
+              "title": "Super App — iOS"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "e0968e36c14b02d1",
         "type": "tabs",
-        "dimension": 68.4331797235023,
+        "dimension": 74.62514417531719,
         "children": [
           {
             "id": "6d6de7eea927caac",
@@ -80,7 +80,7 @@
       {
         "id": "f96e5a4a43bdcfb2",
         "type": "tabs",
-        "dimension": 31.566820276497698,
+        "dimension": 25.374855824682808,
         "children": [
           {
             "id": "aa72a4e9b0b7eeb5",
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 325.5
   },
   "right": {
     "id": "c084690d7cd6de3c",
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "iOS/Accessibility & Localization/Accessibility & Localization.md",
+                "file": "iOS/🔐 Security/basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Accessibility & Localization"
+              "title": "Обратные ссылки для basics"
             }
           },
           {
@@ -132,12 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "iOS/Accessibility & Localization/Accessibility & Localization.md",
+                "file": "iOS/🔐 Security/basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Accessibility & Localization"
+              "title": "Исходящие ссылки из basics"
             }
           },
           {
@@ -161,17 +161,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/Templates/Topic.md",
+                "file": "Templates/iOS System Design/Super App — iOS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Topic"
+              "title": "Структура Super App — iOS"
             }
           },
           {
-            "id": "88b761076a8ab5a6",
+            "id": "4460f3bfb6797735",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -181,13 +181,13 @@
             }
           },
           {
-            "id": "f0fe9263f9eb060f",
+            "id": "43bf0c470108b3b0",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -212,14 +212,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templates:Вставить шаблон": false,
       "switcher:Меню быстрого перехода": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
       "obsidian-kanban:Создать новую доску": false,
@@ -227,51 +228,52 @@
       "obsidian-spaced-repetition:Изучать карточки": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "graph:Граф": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5f7a7dc647b9d601",
+  "active": "2a20f825e02485c1",
   "lastOpenFiles": [
-    "iOS/Tooling & Project Setup/Tooling & Project Setup.md",
-    "iOS/App Store & Distribution/App Store & Distribution.md",
-    "iOS/ADR/ADR.md",
-    "iOS/Concurrency & Multithreading/Concurrency & Multithreading.md",
-    "iOS/Networking/Networking.md",
-    "Без названия.md",
-    "2025-10-04.md",
-    "Безымянная Kanban-доска 1.md",
-    "README.md",
-    "Безымянная Kanban-доска.md",
+    "Templates/iOS System Design/iOS System Design.md",
+    "Templates/iOS System Design/Super App — iOS.md",
+    "iOS/Architecture/System Design/Мобильный (iOS)/Батчинг аналитики — приватность, consent, opt-in/Батчинг аналитики — приватность, consent, opt-in.md",
+    "Templates/iOS System Design/iOS System Design — Realtime Notifications.md",
+    "Templates/iOS System Design/iOS System Design — Realtime Messaging Client.md",
+    "Templates/iOS System Design/iOS System Design — Push & Deep Links.md",
+    "Templates/iOS System Design/iOS System Design — Photo Library (In-App).md",
+    "Templates/iOS System Design/iOS System Design — Pagination (Generic Lists).md",
+    "Templates/iOS System Design/iOS System Design — Offline Feed.md",
+    "Templates/iOS System Design/iOS System Design — Image Loading & Caching.md",
+    "Templates/iOS System Design/iOS System Design — Client Caching & State.md",
+    "Templates/iOS System Design/iOS System Design — Background Transfers.md",
+    "Templates/iOS System Design/iOS System Design — Analytics & Privacy.md",
+    "Templates/iOS System Design",
+    "Templates/iOS System Design — Realtime Messaging Client.md",
+    "Templates/iOS System Design — Photo Library (In-App).md",
+    "Templates/iOS System Design — Client Caching & State.md",
+    "Templates/iOS System Design — Pagination (Generic Lists).md",
+    "Templates/iOS System Design — Realtime Notifications.md",
+    "Templates/iOS System Design — Background Transfers.md",
+    "Templates/iOS System Design — Analytics & Privacy.md",
+    "Templates/iOS System Design — Image Loading & Caching.md",
+    "Templates/iOS System Design — Offline Feed.md",
+    "Templates/iOS System Design — Push & Deep Links.md",
+    "iOS/Architecture/System Design/Мобильный (iOS)/Безопасное хранилище — Keychain, device binding, jailbreak-сигналы/Безопасное хранилище — Keychain, device binding, jailbreak-сигналы.md",
+    "iOS/Architecture/System Design/Мобильный (iOS)/Бэкграунд-загрузки и возобновление — идемпотентность на сервере/Бэкграунд-загрузки и возобновление — идемпотентность на сервере.md",
+    "iOS/Architecture/System Design/Мобильный (iOS)/Версионирование локальной БД и миграции/Версионирование локальной БД и миграции.md",
+    "iOS/Architecture/System Design/Мини-дизайны/GDPR-delete — event-sourced система",
+    "iOS/Architecture/System Design/Мини-дизайны/SLA, SLI, SLO — бюджет ошибок",
+    "iOS/Architecture/System Design/Мини-дизайны/Троттлинг и дебаунс — сервер и клиент",
+    "iOS/Architecture/System Design/Мини-дизайны/Bloom и Count-Min — анти-фрод и дедуп",
+    "iOS/Architecture/System Design/Мини-дизайны/Cursor-based pagination",
+    "iOS/Architecture/System Design/Мини-дизайны/Распределённый лок — почему Redlock спорный",
+    "iOS/Architecture/System Design/Мини-дизайны/Leader election и heartbeats",
+    "iOS/Architecture/System Design/Мини-дизайны/Consistent hashing и шардирование",
+    "iOS/Architecture/System Design/Мини-дизайны/Генератор уникальных ID — Snowflake и ULID",
     "Без названия 4.canvas",
     "Без названия 3.canvas",
     "Без названия 2.canvas",
-    "Без названия 1.base",
     "Без названия 1.canvas",
-    "Без названия.base",
-    "Без названия.canvas",
-    "iOS/Concurrency & Multithreading/2-gcd-grand-central-dispatch.md",
-    "iOS/📖 Memory & ARC/📖 Memory & ARC.md",
-    "iOS/📖 Memory & ARC/arc-mrc.md",
-    "iOS/Architecture/redux-tca-the-composable-architecture.md",
-    "iOS/Architecture/clean-architecture.md",
-    "iOS/Architecture/best-practices.md",
-    "iOS/Architecture/Примеры с собесов/Дизайн заправки.md",
-    "iOS/🔐 Security/basics.md",
-    "iOS/Architecture/Примеры с собесов",
-    "iOS/🔐 Security/SSL pinning",
-    "iOS/🔤 Swift Language/🔤 Swift Language.md",
-    "iOS/Examples/custom-notification-center.md",
-    "iOS/Templates/Example.md",
-    "iOS/📚 3rd Party Libraries/Dependency Managers.md",
-    "iOS/📚 3rd Party Libraries/Best Practices.md",
-    "iOS/📚 3rd Party Libraries/Выбор библиотек.md",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Экзистанциальные контейнеры.md",
-    "iOS/Tooling & Project Setup/git.md",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad/UserInterfaceState.xcuserstate",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata/kirilltitov.xcuserdatad",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/xcuserdata",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace/contents.xcworkspacedata",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/playground.xcworkspace",
-    "iOS/📖 Memory & ARC/Экзистанциальные контейнеры/Примеры/MemoryLayoutExistantial.playground/contents.xcplayground"
+    "Без названия.canvas"
   ]
 }

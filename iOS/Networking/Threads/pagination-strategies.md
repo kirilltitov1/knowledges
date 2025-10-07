@@ -18,5 +18,5 @@ status: draft
 - Cursor — выдаёт маркер продолжения (последний id/время). Устойчив к изменениям, сервер сложнее.
 
 ## Ссылки и примеры
-- Пример клиента: [[iOS/Examples/networking-generic-api-client]]
-- Антипаттерн: [[iOS/Antipatterns/network-on-main-thread]]
+- Пример клиента: [[networking-generic-api-client]]
+- Антипаттерн: [[network-on-main-thread]]

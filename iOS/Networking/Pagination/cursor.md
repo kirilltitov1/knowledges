@@ -23,4 +23,4 @@ subtopic: Pagination
 - Нельзя перескочить на произвольную страницу
 
 ## Примеры
-- [[iOS/Examples/networking-generic-api-client]]
+- [[networking-generic-api-client]]

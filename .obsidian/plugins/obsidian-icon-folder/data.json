@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🧰",
-      "LiCheck",
-      "LiAlignVerticalDistributeCenter",
-      "🚀",
-      "LiWifi"
+      "⚙",
+      "🏗",
+      "🎭",
+      "🎨",
+      "🐛"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,22 @@
   "iOS/Concurrency & Multithreading": "LiAlignVerticalDistributeCenter",
   "iOS/Checklists": "LiCheck",
   "iOS/App Store & Distribution": "🚀",
-  "iOS/Tooling & Project Setup": "🧰"
+  "iOS/Tooling & Project Setup": "🧰",
+  "iOS/Memory": "LiMemoryStick",
+  "iOS/Index.md": "🗂",
+  "iOS/Inbox.md": "📥",
+  "iOS/Glossary.md": "📖",
+  "iOS/Testing": "🧪",
+  "iOS/Swift Language": "LiBird",
+  "iOS/App Lifecycle & Scenes": "🔄",
+  "iOS/Accessibility & Localization": "🌍",
+  "iOS/Security": "🔐",
+  "iOS/iOS SDK & Frameworks": "🧱",
+  "iOS/3rd Party Libraries": "📚",
+  "iOS/Persistence": "📀",
+  "iOS/Debugging": "🐛",
+  "iOS/Design Patterns": "🎭",
+  "iOS/CI & CD": "🏗",
+  "iOS/UI": "🎨",
+  "iOS/Performance & Profiling": "⚙"
 }

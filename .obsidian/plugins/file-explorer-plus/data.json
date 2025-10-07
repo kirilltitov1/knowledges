@@ -24,20 +24,6 @@
         "type": "DIRECTORIES",
         "pattern": "iOS",
         "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "iOS/Networking",
-        "patternType": "STRICT"
-      },
-      {
-        "name": "",
-        "active": true,
-        "type": "DIRECTORIES",
-        "pattern": "iOS/Tooling & Project Setup",
-        "patternType": "STRICT"
       }
     ],
     "frontMatter": [

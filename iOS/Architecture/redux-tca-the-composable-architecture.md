@@ -39,3 +39,6 @@ status: draft
 - Verbose для простых случаев
 - Performance considerations
 
+### Материалы
+- [[tca-conjure-exploring-the-composable-architecture]] — конспект статьи Conjure (2023)
+

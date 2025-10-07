@@ -1,8 +1,12 @@
 # 🏛️ Architecture
 
+# База
+[[Дизайн заправки]]
+
+
 ```dataviewjs
-const pages = dv.pages('"iOS/🏛️ Architecture"')
-    .where(p => p.file.name !== "🏛️ Architecture");
+const pages = dv.pages('"iOS/Architecture"')
+    .where(p => p.file.name !== "Architecture");
 
 // Группируем по subtopic
 const grouped = pages.groupBy(p => p.subtopic || "Разное");

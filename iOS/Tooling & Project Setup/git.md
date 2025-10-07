@@ -662,7 +662,7 @@ git merge upstream/main
 
 ## См. также
 
-- [[🏗️ CI & CD]] - автоматизация с помощью Git hooks
+- [[iOS/CI & CD/CI & CD]] - автоматизация с помощью Git hooks
 - [[iOS/App Store & Distribution/App Store & Distribution]] - версионирование и релизы
-- [[General/interview-preparation]] - подготовка к собеседованиям
+- [[interview-preparation]] - подготовка к собеседованиям
 
