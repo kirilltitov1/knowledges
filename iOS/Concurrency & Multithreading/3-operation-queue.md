@@ -4,6 +4,11 @@ type: thread
 topics: [Concurrency & Multithreading]
 subtopic: 3. Operation Queue
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "11.0"
+duration: 60m
+tags: [nsoperation, operationqueue, dependencies, cancellation, asyncoperation, qos, priority]
 ---
 
 # 3. Operation Queue

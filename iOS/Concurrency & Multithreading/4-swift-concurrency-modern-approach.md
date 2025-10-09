@@ -4,6 +4,11 @@ type: thread
 topics: [Concurrency & Multithreading]
 subtopic: 4. Swift Concurrency
 status: draft
+level: advanced
+platforms: [iOS]
+ios_min: "15.0"
+duration: 90m
+tags: [async-await, tasks, task-group, actors, mainactor, continuations, asyncsequence, structured-concurrency]
 ---
 
 # 4. Swift Concurrency (Modern Approach)

@@ -4,6 +4,11 @@ type: thread
 topics: [Networking]
 subtopic: REST API
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "11.0"
+duration: 60m
+tags: [rest, http-methods, status-codes, headers, json, authentication]
 ---
 
 # REST API

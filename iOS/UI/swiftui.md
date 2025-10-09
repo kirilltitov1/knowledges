@@ -4,6 +4,11 @@ type: thread
 topics: [UI]
 subtopic: swiftui
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "13.0"
+duration: 60m
+tags: [swiftui, state-management, navigation, layout]
 ---
 
 # SwiftUI
@@ -54,4 +59,8 @@ status: draft
 - Combine integration
 - Environment values
 - Preferences
+
+### Responder Chain
+- [Responder Chain — гайд (UIKit↔SwiftUI мост)](responder-chain.md)
+- [Responder Chain — сниппеты](../Snippets/responder-chain.md)
 

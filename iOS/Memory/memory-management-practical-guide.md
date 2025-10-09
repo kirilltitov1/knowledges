@@ -542,3 +542,4 @@ class MemoryMonitor {
 - [WWDC: Understanding Swift Performance](https://developer.apple.com/videos/play/wwdc2016/416/)
 - [Memory Management in Swift](https://developer.apple.com/documentation/swift/memory_management)
 - [Instruments User Guide](https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/)
+ - [[process-memory-layout|Разметка памяти процесса в iOS (ARM64)]]

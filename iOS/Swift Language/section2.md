@@ -4,6 +4,11 @@ type: thread
 topics: [Swift Language]
 subtopic: section2
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "10.0"
+duration: 60m
+tags: [functions, closures, protocols, generics, error-handling, enums, property-wrappers]
 ---
 
 # Продвинутые темы

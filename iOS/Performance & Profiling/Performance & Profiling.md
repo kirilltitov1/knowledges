@@ -1,3 +1,11 @@
+---
+title: Performance & Profiling Index
+type: index
+topics: [Performance & Profiling]
+subtopic: index
+status: draft
+---
+
 
 ```dataviewjs
 const pages = dv.pages('"iOS/Performance & Profiling"')

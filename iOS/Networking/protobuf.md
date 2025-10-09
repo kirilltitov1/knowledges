@@ -1,3 +1,16 @@
+---
+title: Protobuf на iOS: SwiftProtobuf и эволюция схем
+type: thread
+topics: [Networking]
+subtopic: Protobuf
+status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "13.0"
+duration: 45m
+tags: [protobuf, swiftprotobuf, protoc, schema-evolution, oneof, compatibility]
+---
+
 ## Protobuf на iOS: SwiftProtobuf и эволюция схем
 
 ### Что это

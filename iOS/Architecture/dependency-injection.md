@@ -16,9 +16,13 @@ status: draft
 
 ### Реализация
 - Protocol-based DI
-- DI containers (Swinject)
+- DI containers ([[swinject]])
 - Service locator
 - Environment objects (SwiftUI)
+
+### Сравнение и выбор
+
+См. индекс DI-библиотек: [[../3rd Party Libraries/Dependency Injection/Index|Dependency Injection — Индекс]]
 
 ### Patterns
 - Factory pattern

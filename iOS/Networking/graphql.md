@@ -1,10 +1,14 @@
 ---
 title: GraphQL
 type: thread
-topics:
-  - Networking
+topics: [Networking]
 subtopic: GraphQL
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "13.0"
+duration: 60m
+tags: [graphql, apollo-ios, queries, mutations, subscriptions, schema, caching]
 ---
 
 # GraphQL

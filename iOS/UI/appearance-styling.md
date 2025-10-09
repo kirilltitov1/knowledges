@@ -4,6 +4,11 @@ type: thread
 topics: [UI]
 subtopic: appearance-styling
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "11.0"
+duration: 45m
+tags: [appearance, styling, theming, dark-mode, fonts, colors, uiappearance, swiftui]
 ---
 
 # Appearance & Styling

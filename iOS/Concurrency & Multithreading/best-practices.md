@@ -4,6 +4,11 @@ type: thread
 topics: [Concurrency & Multithreading]
 subtopic: Best Practices
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "13.0"
+duration: 30m
+tags: [best-practices, actors, cancellation, qos, main-thread, testing]
 ---
 
 # Best Practices

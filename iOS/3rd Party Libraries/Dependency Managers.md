@@ -5,7 +5,7 @@ topics: [3rd Party Libraries]
 subtopic: dependency-managers
 status: draft
 ---
-### Swift Package Manager (SPM)
+	### Swift Package Manager (SPM)
 - Package.swift
 - Adding dependencies
 - Local packages

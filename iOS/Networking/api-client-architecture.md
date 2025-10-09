@@ -1,10 +1,14 @@
 ---
 title: API Client Architecture
 type: thread
-topics:
-  - Networking
+topics: [Networking, Architecture]
 subtopic: Architecture
 status: draft
+level: advanced
+platforms: [iOS]
+ios_min: "13.0"
+duration: 60m
+tags: [api-client, endpoint, request-builder, response-mapping, error-handling, logging]
 ---
 
 # API Client Architecture

@@ -4,6 +4,11 @@ type: thread
 topics: [Swift Language]
 subtopic: swift-5-x
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "13.0"
+duration: 60m
+tags: [swift-5-5, async-await, actors, regex, macros, swift-6]
 ---
 
 # Swift 5.x+ Новые возможности

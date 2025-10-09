@@ -1,4 +1,14 @@
+---
+title: Snippets
+type: index
+topics: [iOS]
+subtopic: snippets
+status: draft
+---
+
 # Snippets
+
+- [Responder Chain (UI)](../iOS/Snippets/responder-chain.md)
 
 ```dataviewjs
 const pages = dv.pages('"iOS/Snippets"')

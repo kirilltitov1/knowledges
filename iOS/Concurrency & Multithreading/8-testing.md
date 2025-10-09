@@ -4,6 +4,11 @@ type: thread
 topics: [Concurrency & Multithreading]
 subtopic: 8. Testing
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "13.0"
+duration: 30m
+tags: [xctest, async-testing, expectations, actors, ui-testing]
 ---
 
 # 8. Testing

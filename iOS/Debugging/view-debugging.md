@@ -4,6 +4,11 @@ type: thread
 topics: [Debugging]
 subtopic: view-debugging
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "11.0"
+duration: 30m
+tags: [view-hierarchy, constraints, layered-debugging, recursiveDescription, debug-view-hierarchy]
 ---
 
 # View Debugging

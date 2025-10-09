@@ -1,3 +1,11 @@
+---
+title: Debugging Index
+type: index
+topics: [Debugging]
+subtopic: index
+status: draft
+---
+
 
 ```dataviewjs
 const pages = dv.pages('"iOS/Debugging"')

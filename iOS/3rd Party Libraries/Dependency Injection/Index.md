@@ -1,0 +1,32 @@
+---
+title: Dependency Injection — Индекс
+type: thread
+topics:
+  - 3rd Party Libraries
+subtopic: Dependency Injection
+status: draft
+---
+
+# Dependency Injection — Индекс
+
+Сравнение популярных DI-инструментов и ссылки на подробные гайды.
+
+## Сравнение
+
+| Библиотека | Тип | Безопасность | Перфоманс | Области жизни | SwiftUI | Storyboard | Autoreg | Порог входа |
+|---|---|---|---|---|---|---|---|---|
+| [[swinject]] | Рантайм-контейнер | Рантайм-проверки | Высокая | Да (.container/.graph/.transient/.weak) | Через обертки | Да (SwinjectStoryboard) | Да (пакет) | Средний |
+| [[resolver]] | Рантайм-контейнер | Рантайм-проверки | Высокая | Да | Да (property wrappers) | Нет | Нет | Низкий |
+| [[needle]] | Codegen (Uber) | Компайл-тайм | Очень высокая | Да | Опционально | Нет | Нет | Выше среднего |
+| [[cleanse]] | Codegen/модули | Компайл-тайм | Очень высокая | Да | Опционально | Нет | Нет | Высокий |
+| [[factory]] | Рантайм-контейнер | Рантайм-проверки | Высокая | Да | Да (property wrappers) | Нет | Нет | Низкий |
+| Manual DI | Без контейнера | Компайл-тайм (конструкторы) | Очень высокая | Ручное | Да | Да | — | Низкий/Средний |
+
+## Гайды
+
+- [[swinject]] — контейнер DI, Storyboard, авто-регистрация, области жизни
+- [[resolver]] — простая интеграция, property wrappers, SwiftUI
+- [[needle]] — генерация кода, compile-time гарантии (Uber)
+- [[cleanse]] — модульная конфигурация и compile-time проверки (Square)
+- [[factory]] — лёгкий DI с property wrappers
+

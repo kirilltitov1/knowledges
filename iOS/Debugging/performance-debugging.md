@@ -4,6 +4,11 @@ type: thread
 topics: [Debugging]
 subtopic: performance-debugging
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "11.0"
+duration: 45m
+tags: [time-profiler, core-animation, fps, debug-options, performance]
 ---
 
 # Performance Debugging

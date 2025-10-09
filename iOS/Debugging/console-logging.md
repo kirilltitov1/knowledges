@@ -4,6 +4,11 @@ type: thread
 topics: [Debugging]
 subtopic: console-logging
 status: draft
+level: intermediate
+platforms: [iOS, macOS]
+ios_min: "10.0"
+duration: 30m
+tags: [oslog, unified-logging, NSLog, print, logging, subsystems, categories]
 ---
 
 # Console Logging

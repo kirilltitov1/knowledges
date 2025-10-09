@@ -4,6 +4,11 @@ type: thread
 topics: [Debugging]
 subtopic: network-debugging
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "11.0"
+duration: 45m
+tags: [charles, proxyman, network-link-conditioner, ssl-proxying, instruments-network]
 ---
 
 # Network Debugging

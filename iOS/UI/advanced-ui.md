@@ -4,6 +4,11 @@ type: thread
 topics: [UI]
 subtopic: advanced-ui
 status: draft
+level: advanced
+platforms: [iOS]
+ios_min: "11.0"
+duration: 45m
+tags: [advanced-ui, uikit, swiftui]
 ---
 
 # Advanced UI

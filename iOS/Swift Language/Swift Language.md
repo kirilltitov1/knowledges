@@ -1,3 +1,11 @@
+---
+title: Swift Language Index
+type: index
+topics: [Swift Language]
+subtopic: index
+status: draft
+---
+
 
 ```dataviewjs
 const pages = dv.pages('"iOS/Swift Language"')

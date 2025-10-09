@@ -4,6 +4,11 @@ type: thread
 topics: [UI]
 subtopic: best-practices
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "11.0"
+duration: 30m
+tags: [best-practices, architecture, performance, accessibility, testing]
 ---
 
 # Best Practices

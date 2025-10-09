@@ -4,6 +4,11 @@ type: thread
 topics: [Concurrency & Multithreading]
 subtopic: 7. Performance & Optimization
 status: draft
+level: advanced
+platforms: [iOS]
+ios_min: "13.0"
+duration: 45m
+tags: [thread-pool, qos, main-thread, cancellation, memory-management]
 ---
 
 # 7. Performance & Optimization

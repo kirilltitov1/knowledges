@@ -4,18 +4,27 @@ type: thread
 topics: [UI]
 subtopic: uikit
 status: draft
+level: intermediate
+platforms: [iOS]
+ios_min: "11.0"
+duration: 60m
+tags: [uikit, view-controllers, auto-layout, table-view, collection-view, gestures]
 ---
 
 # UIKit
 
-
 ### View Controllers
 - UIViewController lifecycle
+  - `init(coder:)` или `init(nibName:bundle:)` 
+  - `loadView()`
   - `viewDidLoad()`
   - `viewWillAppear(_:)`
   - `viewDidAppear(_:)`
   - `viewWillDisappear(_:)`
   - `viewDidDisappear(_:)`
+  - Вспомогательные методы
+    `viewWillLayoutSubviews():` Вызывается перед тем, как layoutSubviews() будет вызван на view.
+    `viewDidLayoutSubviews():` Вызывается после того, как subviews были перестроены. Используется для выполнения любых дополнительных настроек после размещения subviews.
 - Navigation
   - UINavigationController
   - Push/Pop
@@ -80,6 +89,10 @@ status: draft
 - UISegmentedControl
 - UIDatePicker
 - UIPickerView
+
+### Responder Chain
+- [Responder Chain — гайд](responder-chain.md)
+- [Responder Chain — сниппеты](../Snippets/responder-chain.md)
 
 ## Вопросы собеседований
 - Какие есть методы, которые участвуют в процессе layout view?
