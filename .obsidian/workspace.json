@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d557d3775e6c828d",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "2a20f825e02485c1",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/iOS System Design/iOS System Design — Analytics & Privacy.md",
+                "file": "iOS/Topics/Topics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iOS System Design — Analytics & Privacy"
-            }
-          },
-          {
-            "id": "e8f42870413de078",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/3rd Party Libraries/Dependency Injection/Dependency Injection.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dependency Injection"
+              "title": "Topics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +80,7 @@
       {
         "id": "f96e5a4a43bdcfb2",
         "type": "tabs",
-        "dimension": 23.06805074971165,
+        "dimension": 23.068050749711645,
         "children": [
           {
             "id": "aa72a4e9b0b7eeb5",
@@ -176,13 +161,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "iOS/3rd Party Libraries/Dependency Injection/Dependency Injection.md",
+                "file": "iOS/Topics/push-notifications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Dependency Injection"
+              "title": "Структура push-notifications"
             }
           },
           {
@@ -206,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "239f5ca6dc77fae9",
@@ -247,9 +232,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e8f42870413de078",
+  "active": "6d6de7eea927caac",
   "lastOpenFiles": [
     "iOS/Topics/push-notifications.md",
+    "iOS/Concurrency & Multithreading/Concurrency & Multithreading.md",
+    "iOS/Architecture/System Design/Файлы и медиа 2/Пайплайн изображений — загрузка, ресайз, дедупликация, EXIF, CDN-инвалидация/Пайплайн изображений — загрузка, ресайз, дедупликация, EXIF, CDN-инвалидация.md",
+    "iOS/Architecture/System Design/Потоки данных и аналитика/Потоки данных и аналитика.md",
+    "iOS/Architecture/System Design/Мобильный (iOS) 2/Архитектура — push, deep link, in-app messaging/Архитектура — push, deep link, in-app messaging.md",
+    "iOS/Architecture/System Design/Мобильный (iOS) 2/Батчинг аналитики — приватность, consent, opt-in/Батчинг аналитики — приватность, consent, opt-in.md",
+    "iOS/Architecture/System Design/Мини-дизайны 3/Распределённый лок — почему Redlock спорный/Распределённый лок — почему Redlock спорный.md",
+    "iOS/Architecture/System Design/Мини-дизайны 3/Генератор уникальных ID — Snowflake и ULID/Генератор уникальных ID — Snowflake и ULID.md",
+    "iOS/Architecture/System Design/Мини-дизайны 2/Генератор уникальных ID — Snowflake и ULID/Генератор уникальных ID — Snowflake и ULID.md",
+    "iOS/3rd Party Libraries/Dependency Injection/Dependency Injection.md",
+    "README.md",
+    "iOS/Topics/3rd Party Libraries.md",
+    "Templates/iOS System Design/Super App — iOS.md",
+    "iOS/3rd Party Libraries/alamofire.md",
+    "iOS/Architecture/System Design/Мобильный (iOS)/Мобильный (iOS).md",
+    "iOS/Architecture/System Design/Мини-дизайны/Мини-дизайны.md",
+    "iOS/Architecture/System Design/Безопасность и комплаенс/Безопасность и комплаенс.md",
+    "Templates/iOS System Design/Примеры кейсов.md",
+    "Templates/iOS System Design/Подготовка.md",
     "iOS/Networking/real-time-communications-ios.md",
     "iOS/Networking/reachability-offline.md",
     "iOS/3rd Party Libraries/Dependency Injection/swinject.md",
@@ -257,20 +260,6 @@
     "iOS/3rd Party Libraries/Dependency Injection/Index.md",
     "iOS/3rd Party Libraries/Dependency Injection/factory.md",
     "iOS/3rd Party Libraries/Dependency Injection/cleanse.md",
-    "iOS/3rd Party Libraries/Dependency Injection/Dependency Injection.md",
-    "iOS/3rd Party Libraries/Dependency Managers.md",
-    "Templates/iOS System Design/Подготовка.md",
-    "Templates/iOS System Design/Примеры кейсов.md",
-    "Без названия.md",
-    "Templates/iOS System Design/iOS System Design — Image Loading & Caching.md",
-    "Templates/iOS System Design/iOS System Design — Analytics & Privacy.md",
-    "Templates/iOS System Design/iOS System Design — Photo Library (In-App).md",
-    "Templates/iOS System Design/iOS System Design — Realtime Notifications.md",
-    "Templates/iOS System Design/Super App — iOS.md",
-    "iOS/Architecture/modular-architecture-guide.md",
-    "iOS/Architecture/modular-architecture.md",
-    "iOS/Architecture/mvc-model-view-controller.md",
-    "iOS/Architecture/Примеры с собесов/Дизайн заправки.md",
     "Pasted image 20251009232944.png",
     "Pasted image 20251009231325.png",
     "Pasted image 20251009231244.png",
@@ -281,10 +270,6 @@
     "Pasted image 20251009225107.png",
     "Pasted image 20251009225103.png",
     "Pasted image 20251009225025.png",
-    "Templates/iOS System Design/iOS System Design — Realtime Messaging Client.md",
-    "iOS/Networking/rtp.md",
-    "iOS/Networking/websocket.md",
-    "iOS/App Lifecycle & Scenes/background-modes.md",
     "iOS/3rd Party Libraries/Dependency Injection",
     "iOS/Snippets",
     "iOS/Exercises",

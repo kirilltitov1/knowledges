@@ -25,6 +25,15 @@ status: complete
 - VoIP — для вызовов (современная рекомендация: обычные remote с `apns-push-type: voip` + CallKit).
 - Live Activities — обновления активностей на экране блокировки/Dynamic Island.
 
+### Классификация: «кастомные» vs «некастомные»
+- Некастомные (стандартные UI): баннер/алерт/звук/бэйдж без расширений. Достаточно payload с `aps.alert`/`sound`/`badge`, категориями и действиями. Простая интеграция, минимальные риски.
+- Кастомные (требуют расширений/доп. логики):
+  - Rich notifications: `mutable-content: 1` + Notification Service Extension (добавляет медиа/модифицирует текст) и, при необходимости, Notification Content Extension (кастомный UI).
+  - Foreground custom UX: в `willPresent` подавляете системный баннер и показываете свой in‑app баннер/ин‑апп сообщение, с трекингом и роутингом.
+  - Live Activities: обновление активностей через push (`apns-push-type: liveactivity`) — кастомный UI в рамках ActivityKit.
+  - Time Sensitive/Critical: не меняют UI-слой, но меняют приоритет/интеррапшн‑уровень; «critical» требует отдельного entitlement и аппрува Apple.
+  - VoIP: особый канал доставки и интеграция с CallKit; UI — ваш (экран звонка) + системные элементы.
+
 ### Пользовательские разрешения
 - `UNUserNotificationCenter.requestAuthorization(options: [.alert, .badge, .sound, .provisional, .timeSensitive])`
 - Проектируйте «why prompt» и «soft ask» перед системным запросом.
@@ -145,6 +154,18 @@ func application(_ application: UIApplication,
 
 ## 🌐 Бэкенд → APNs
 
+### Чек‑лист интеграции на сервере
+- Аккаунт Apple Developer и APNs Auth Key (.p8), `teamId`, `keyId`, `bundleId`.
+- Провайдер APNs поверх HTTP/2/3 с JWT‑аутентификацией; кэшируйте `bearer` токен (~20 мин TTL).
+- Разделение окружений: `api.sandbox.push.apple.com` для dev/TestFlight (debug), `api.push.apple.com` для prod. Учитывайте, что device token/топик привязаны к окружению.
+- Хранилище токенов устройств: mapping `userId → [deviceToken]` + метаданные (locale, tz, appVersion, lastSeen, osVersion, deviceModel), статус подписок/категорий.
+- Контракты payload: минимальный `aps` + ваша схема `type/version/payload`, deeplink/route, `dedupeKey`/`eventId`.
+- Заголовки: корректный `apns-topic` (bundle id/суффиксы), `apns-push-type`, `apns-priority`, `apns-expiration`, при необходимости `apns-collapse-id`/`apns-id`.
+- Политики: ретраи по 5xx с экспоненциальной задержкой, идемпотентность (повтор по `apns-id`), rate limiting/шардинг.
+- Очистка токенов: на `410 Unregistered`/`400 BadDeviceToken` — снимайте токен с учётки, логируйте причину.
+- Наблюдаемость: корреляция `apns-id` ↔ внутренние события, метрики доставок/открытий, алерты по росту отказов.
+- Безопасность: не кладите PII в payload; используйте короткие ключи, шифруйте чувствительные данные по необходимости.
+
 ### Аутентификация и окружения
 - Рекомендуется Auth Key (.p8, JWT) вместо сертификатов: проще ротация, один ключ на все bundle в Team.
 - Endpoint: `api.push.apple.com:443` (prod) и `api.sandbox.push.apple.com:443` (dev).
@@ -176,6 +197,29 @@ func application(_ application: UIApplication,
   "aps": { "content-available": 1 },
   "delta": { "messagesSince": 10231 }
 }
+```
+
+### Примеры отправки (curl)
+```bash
+# JWT должен формироваться на сервере из .p8 (teamId, keyId, bundleId)
+curl -v \
+  --http2 \
+  --header "authorization: bearer $APNS_JWT" \
+  --header "apns-topic: com.example.app" \
+  --header "apns-push-type: alert" \
+  --header "apns-priority: 10" \
+  --data '{"aps":{"alert":{"title":"Hi","body":"Test"}}}' \
+  https://api.sandbox.push.apple.com/3/device/$DEVICE_TOKEN
+
+# Silent push
+curl -v \
+  --http2 \
+  --header "authorization: bearer $APNS_JWT" \
+  --header "apns-topic: com.example.app" \
+  --header "apns-push-type: background" \
+  --header "apns-priority: 5" \
+  --data '{"aps":{"content-available":1},"delta":{"messagesSince":10231}}' \
+  https://api.push.apple.com/3/device/$DEVICE_TOKEN
 ```
 
 ### Retry/Idempotency/Очистка токенов

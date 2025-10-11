@@ -6,7 +6,6 @@ subtopic: index
 status: draft
 ---
 
-
 ```dataviewjs
 const pages = dv.pages('"iOS/Concurrency & Multithreading"')
     .where(p => p.file.name !== "Concurrency & Multithreading");

@@ -298,3 +298,5 @@ final class BasicAssembly: Assembly {
 - См. архитектурную заметку «Dependency Injection» → [[dependency-injection]].
 
 
+
+

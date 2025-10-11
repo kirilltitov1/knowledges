@@ -30,4 +30,6 @@ status: draft
 
 ### См. также
 - `iOS/Topics/push-notifications.md`
+ - `iOS/App Lifecycle & Scenes/background-modes.md`
+ - `Templates/iOS System Design/iOS System Design — Push & Deep Links.md`
 
