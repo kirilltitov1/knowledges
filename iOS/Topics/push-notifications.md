@@ -5,7 +5,7 @@ topics:
   - apns
   - notifications
   - background-modes
-  - silent-pushpush-notifications", "apns", "notifications", "background-modes", "silent-push"]"
+  - silent-push
 status: "done"
 title: "Push Notifications"
 ---
@@ -101,6 +101,45 @@ let category = UNNotificationCategory(
 UNUserNotificationCenter.current().setNotificationCategories([category])
 ```
 
+## 🔔 Alert push (стандартный UI)
+
+### Payload (бекенд)
+```json
+{
+  "aps": {
+    "alert": { "title": "Привет", "body": "У тебя новое сообщение" },
+    "badge": 5,
+    "sound": "default",
+    "thread-id": "chat-123",
+    "category": "MEETING_INVITE"
+  },
+  "deeplink": "myapp://chat/123",
+  "eventId": "msg-10231"
+}
+```
+
+### Заголовки APNs (бекенд)
+- `apns-push-type: alert`
+- `apns-priority: 10`
+- `apns-topic: <bundle id>`
+- Опционально: `apns-collapse-id: chat-123`, `apns-expiration: <unix>`
+
+### Обработка на iOS
+- Отображается системный баннер/алерт. В `willPresent` можно изменить политику показа.
+- В `didReceive response` выполняйте роутинг по `deeplink`/`category`/`actionIdentifier`.
+
+### Пример отправки (curl)
+```bash
+curl -v \
+  --http2 \
+  --header "authorization: bearer $APNS_JWT" \
+  --header "apns-topic: com.example.app" \
+  --header "apns-push-type: alert" \
+  --header "apns-priority: 10" \
+  --data '{"aps":{"alert":{"title":"Hi","body":"Test"},"category":"MEETING_INVITE"},"deeplink":"myapp://chat/123"}' \
+  https://api.sandbox.push.apple.com/3/device/$DEVICE_TOKEN
+```
+
 ### Rich notifications (Notification Service Extension)
 - Target: Notification Service Extension.
 - В `didReceive` скачайте медиа, модифицируйте контент, добавьте вложения.
@@ -157,6 +196,84 @@ func application(_ application: UIApplication,
 - Комбинируйте с `BGAppRefreshTask`/`BGProcessingTask` как fallback.
 - Логируйте delivery outcomes (client beacon → backend) для калибровки стратегии.
 
+## 🖼 Rich push (mutable-content)
+
+### Назначение
+- Медиа (изображения, видео, аудио), динамическая модификация текста до показа.
+
+### Требования
+- В проекте должен быть таргет Notification Service Extension.
+- Payload должен содержать `"aps": { "mutable-content": 1 }`.
+- Заголовки: `apns-push-type: alert`, `apns-priority: 10`.
+
+### Payload (бекенд)
+```json
+{
+  "aps": {
+    "alert": { "title": "Новое фото", "body": "Открой, чтобы посмотреть" },
+    "mutable-content": 1,
+    "category": "GALLERY_ITEM"
+  },
+  "media-url": "https://cdn.example.com/images/abc123.jpg",
+  "media-type": "image/jpeg",
+  "deeplink": "myapp://gallery/abc123"
+}
+```
+
+### Что убираем/как обрабатываем (в Service Extension)
+- Скачиваем ресурс по `media-url`, создаём `UNNotificationAttachment` и добавляем в контент.
+- Не показываем `media-url`/служебные ключи в тексте — преобразуем их в вложения.
+- При ошибке загрузки/тайм-ауте показываем текст без медиа (фолбэк).
+- При необходимости редактируем `title`/`body` (например, удаляем HTML/эмодзи-артефакты).
+
+### Обработка на iOS (пример Service Extension)
+```swift
+final class NotificationService: UNNotificationServiceExtension {
+    private var contentHandler: ((UNNotificationContent) -> Void)?
+    private var bestAttemptContent: UNMutableNotificationContent?
+
+    override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
+        self.contentHandler = contentHandler
+        let content = (request.content.mutableCopy() as? UNMutableNotificationContent) ?? .init()
+        self.bestAttemptContent = content
+
+        guard let urlString = content.userInfo["media-url"] as? String, let url = URL(string: urlString) else {
+            contentHandler(content)
+            return
+        }
+
+        URLSession.shared.downloadTask(with: url) { localURL, _, _ in
+            defer { contentHandler(content) }
+            guard let localURL else { return }
+            if let attachment = try? UNNotificationAttachment(identifier: "media", url: localURL, options: [UNNotificationAttachmentOptionsTypeHintKey: content.userInfo["media-type"] as? String ?? ""]) {
+                content.attachments = [attachment]
+            }
+            // Уберём служебные ключи из userInfo для чистоты
+            var cleaned = content.userInfo
+            cleaned.removeValue(forKey: "media-url")
+            cleaned.removeValue(forKey: "media-type")
+            content.userInfo = cleaned
+        }.resume()
+    }
+
+    override func serviceExtensionTimeWillExpire() {
+        if let content = bestAttemptContent { contentHandler?(content) }
+    }
+}
+```
+
+### Пример отправки (curl)
+```bash
+curl -v \
+  --http2 \
+  --header "authorization: bearer $APNS_JWT" \
+  --header "apns-topic: com.example.app" \
+  --header "apns-push-type: alert" \
+  --header "apns-priority: 10" \
+  --data '{"aps":{"alert":{"title":"Новое фото","body":"Открой, чтобы посмотреть"},"mutable-content":1},"media-url":"https://cdn.example.com/images/abc123.jpg","media-type":"image/jpeg","deeplink":"myapp://gallery/abc123"}' \
+  https://api.push.apple.com/3/device/$DEVICE_TOKEN
+```
+
 ## 🌐 Бэкенд → APNs
 
 ### Чек‑лист интеграции на сервере
@@ -204,6 +321,18 @@ func application(_ application: UIApplication,
 }
 ```
 
+```json
+{
+  "aps": {
+    "alert": { "title": "Новое фото", "body": "Открой, чтобы посмотреть" },
+    "mutable-content": 1
+  },
+  "media-url": "https://cdn.example.com/images/abc123.jpg",
+  "media-type": "image/jpeg",
+  "deeplink": "myapp://gallery/abc123"
+}
+```
+
 ### Примеры отправки (curl)
 ```bash
 # JWT должен формироваться на сервере из .p8 (teamId, keyId, bundleId)
@@ -224,6 +353,16 @@ curl -v \
   --header "apns-push-type: background" \
   --header "apns-priority: 5" \
   --data '{"aps":{"content-available":1},"delta":{"messagesSince":10231}}' \
+  https://api.push.apple.com/3/device/$DEVICE_TOKEN
+
+# Rich push (mutable-content) with media
+curl -v \
+  --http2 \
+  --header "authorization: bearer $APNS_JWT" \
+  --header "apns-topic: com.example.app" \
+  --header "apns-push-type: alert" \
+  --header "apns-priority: 10" \
+  --data '{"aps":{"alert":{"title":"Новое фото","body":"Открой, чтобы посмотреть"},"mutable-content":1},"media-url":"https://cdn.example.com/images/abc123.jpg","media-type":"image/jpeg"}' \
   https://api.push.apple.com/3/device/$DEVICE_TOKEN
 ```
 
