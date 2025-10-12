@@ -1,8 +1,13 @@
 ---
-title: Push Notifications in iOS — from 0 to Senior++
-type: topic
-topics: [push-notifications, apns, notifications, background-modes, silent-push]
-status: complete
+type: "topic"
+topics:
+  - push-notifications
+  - apns
+  - notifications
+  - background-modes
+  - silent-pushpush-notifications", "apns", "notifications", "background-modes", "silent-push"]"
+status: "done"
+title: "Push Notifications"
 ---
 
 # Push Notifications in iOS — от 0 до Senior++

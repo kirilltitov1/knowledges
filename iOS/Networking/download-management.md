@@ -1,9 +1,8 @@
 ---
-title: Download Management
-type: thread
-topics: [Networking]
-subtopic: Download
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Download Management"
 ---
 
 # Download Management

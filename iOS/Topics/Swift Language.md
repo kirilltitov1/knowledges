@@ -1,7 +1,7 @@
 ---
-title: Swift Language
-type: topic
-topics: [Swift Language]
+type: "topic"
+status: "draft"
+title: "Swift Language"
 ---
 
 # Swift Language 🔤

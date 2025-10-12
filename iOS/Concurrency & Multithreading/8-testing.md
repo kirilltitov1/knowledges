@@ -1,14 +1,8 @@
 ---
-title: 8. Testing
-type: thread
-topics: [Concurrency & Multithreading]
-subtopic: 8. Testing
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "13.0"
-duration: 30m
-tags: [xctest, async-testing, expectations, actors, ui-testing]
+type: "thread"
+status: "draft"
+summary: ""
+title: "8 Testing"
 ---
 
 # 8. Testing

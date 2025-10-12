@@ -1,10 +1,8 @@
 ---
-title: Swinject — Dependency Injection для Swift
-type: thread
-topics:
-  - 3rd Party Libraries
-subtopic: Dependency Injection
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "swinject"
 ---
 
 # Swinject

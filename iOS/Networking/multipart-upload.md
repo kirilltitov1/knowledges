@@ -1,9 +1,8 @@
 ---
-title: Multipart Upload
-type: thread
-topics: [Networking]
-subtopic: Multipart Upload
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Multipart Upload"
 ---
 
 # Multipart Upload

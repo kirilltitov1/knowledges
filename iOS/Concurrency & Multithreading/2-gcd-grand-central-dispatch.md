@@ -1,14 +1,8 @@
 ---
-title: 2. GCD (Grand Central Dispatch)
-type: thread
-topics: [Concurrency & Multithreading]
-subtopic: 2. GCD (Grand Central Dispatch)
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "11.0"
-duration: 60m
-tags: [gcd, dispatch-queue, qos, dispatchgroup, semaphore, barriers, dispatchsource]
+type: "thread"
+status: "draft"
+summary: ""
+title: "2 Gcd Grand Central Dispatch"
 ---
 
 # 2. GCD (Grand Central Dispatch)

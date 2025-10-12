@@ -1,9 +1,8 @@
 ---
-title: MVC (Model-View-Controller)
-type: thread
-topics: [Architecture]
-subtopic: mvc-model-view-controller
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Mvc Model View Controller"
 ---
 
 # MVC (Model-View-Controller)

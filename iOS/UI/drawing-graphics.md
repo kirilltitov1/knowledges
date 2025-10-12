@@ -1,14 +1,8 @@
 ---
-title: Drawing & Graphics
-type: thread
-topics: [UI]
-subtopic: drawing-graphics
-status: draft
-level: advanced
-platforms: [iOS]
-ios_min: "11.0"
-duration: 60m
-tags: [drawing, core-graphics, layers, swiftui]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Drawing Graphics"
 ---
 
 # Drawing & Graphics

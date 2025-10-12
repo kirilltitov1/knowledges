@@ -1,14 +1,8 @@
 ---
-title: Task Context Storage
-type: thread
-topics: [Concurrency & Multithreading]
-subtopic: Swift Concurrency Internals
-status: draft
-level: advanced
-platforms: [iOS]
-ios_min: "15.0"
-duration: 60m
-tags: [task-context, tls, continuations, executors, cancellation, task-local, structured-concurrency]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Task Context Storage"
 ---
 
 # Task Context Storage - Где хранится информация о Task

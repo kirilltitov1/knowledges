@@ -1,14 +1,8 @@
 ---
-title: System Design для собеседований iOS разработчиков
-type: guide
-topics: [System Design, iOS Architecture, Interview Preparation]
-subtopic: ios-system-design
-status: draft
-level: advanced
-platforms: [iOS, Backend, Architecture]
-ios_min: "13.0"
-duration: 120m
-tags: [system-design, ios-architecture, scalability, performance, mobile-backend]
+type: "guide"
+status: "draft"
+level: "advanced"
+title: "iOS System Design Interviews"
 ---
 
 # 🏗️ System Design для собеседований iOS разработчиков

@@ -1,9 +1,8 @@
 ---
-title: Behavioral Patterns (Поведенческие)
-type: thread
-topics: [Design Patterns]
-subtopic: behavioral-patterns
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Behavioral Patterns"
 ---
 
 # Behavioral Patterns (Поведенческие)

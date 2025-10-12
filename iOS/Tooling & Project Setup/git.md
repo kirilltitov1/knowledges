@@ -1,9 +1,8 @@
 ---
-title: Git - Система контроля версий
-type: thread
-topics: [Tooling, Version Control]
-subtopic: Git
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "git"
 ---
 
 # Git - Система контроля версий

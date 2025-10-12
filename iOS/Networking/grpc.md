@@ -1,14 +1,8 @@
 ---
-title: gRPC для iOS
-type: thread
-topics: [Networking]
-subtopic: gRPC
-status: draft
-level: advanced
-platforms: [iOS]
-ios_min: "13.0"
-duration: 60m
-tags: [grpc, http2, swift-nio, swiftprotobuf, streaming, bidi, timeouts]
+type: "thread"
+status: "draft"
+summary: ""
+title: "grpc"
 ---
 
 ## gRPC для iOS

@@ -1,9 +1,8 @@
 ---
-title: State Restoration
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: state-restoration
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "State Restoration"
 ---
 
 # State Restoration

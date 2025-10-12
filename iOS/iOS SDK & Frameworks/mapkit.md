@@ -1,9 +1,8 @@
 ---
-title: MapKit
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: mapkit
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "mapkit"
 ---
 
 # MapKit

@@ -1,9 +1,8 @@
 ---
-title: Widget Lifecycle
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: widget-lifecycle
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Widget Lifecycle"
 ---
 
 # Widget Lifecycle

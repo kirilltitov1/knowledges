@@ -1,9 +1,8 @@
 ---
-title: Network on Main Thread
-type: antipattern
-topics: [Networking, Performance & Profiling]
-severity: high
-status: draft
+type: "antipattern"
+status: "draft"
+severity: "high"
+title: "Network On Main Thread"
 ---
 
 ## Проблема

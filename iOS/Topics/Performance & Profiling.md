@@ -1,7 +1,7 @@
 ---
-title: Performance & Profiling
-type: topic
-topics: [Performance & Profiling]
+type: "topic"
+status: "draft"
+title: "Performance & Profiling"
 ---
 
 # Performance & Profiling ⚙️

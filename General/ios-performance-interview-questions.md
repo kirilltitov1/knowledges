@@ -1,14 +1,8 @@
 ---
-title: Вопросы по производительности и оптимизации iOS приложений
-type: guide
-topics: [Performance, Optimization, Interview Preparation]
-subtopic: ios-performance-questions
-status: draft
-level: advanced
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "12.0"
-duration: 75m
-tags: [performance-optimization, memory-management, battery-optimization, instruments, profiling, interview-questions]
+type: "guide"
+status: "draft"
+level: "advanced"
+title: "iOS Performance Interview Questions"
 ---
 
 # ⚡ Вопросы по производительности и оптимизации iOS приложений

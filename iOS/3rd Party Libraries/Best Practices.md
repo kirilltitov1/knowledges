@@ -1,9 +1,8 @@
 ---
-title: Best Practices
-type: thread
-topics: [3rd Party Libraries]
-subtopic: best-practices
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Best Practices"
 ---
 
 - Минимизация зависимостей

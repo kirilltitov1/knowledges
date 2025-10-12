@@ -1,14 +1,8 @@
 ---
-title: SwiftUI Debugging
-type: thread
-topics: [Debugging]
-subtopic: swiftui-debugging
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "13.0"
-duration: 30m
-tags: [swiftui, view-inspector, previews, state, environment]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Swiftui Debugging"
 ---
 
 # SwiftUI Debugging

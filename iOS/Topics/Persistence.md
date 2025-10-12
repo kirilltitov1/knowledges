@@ -1,7 +1,7 @@
 ---
-title: Persistence
-type: topic
-topics: [Persistence]
+type: "topic"
+status: "draft"
+title: "Persistence"
 ---
 
 # Persistence 📀

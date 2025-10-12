@@ -1,9 +1,7 @@
 ---
-title: Concurrency & Multithreading Index
-type: index
-topics: [Concurrency & Multithreading]
-subtopic: index
-status: draft
+type: "index"
+status: "draft"
+title: "Concurrency & Multithreading"
 ---
 
 ```dataviewjs

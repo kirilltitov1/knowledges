@@ -1,14 +1,8 @@
 ---
-title: Advanced Debugging
-type: thread
-topics: [Debugging]
-subtopic: advanced-debugging
-status: draft
-level: advanced
-platforms: [iOS]
-ios_min: "11.0"
-duration: 45m
-tags: [asan, tsan, ubsan, main-thread-checker, sanitizers, debugging]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Advanced Debugging"
 ---
 
 # Advanced Debugging

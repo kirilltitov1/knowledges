@@ -1,14 +1,8 @@
 ---
-title: Коллекции в Swift - детальное руководство
-type: guide
-topics: [Swift Language, Data Structures, Collections]
-subtopic: swift-collections
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 90m
-tags: [swift-collections, array, dictionary, set, performance, algorithms, data-structures]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Swift Collections Guide"
 ---
 
 # 📚 Коллекции в Swift - детальное руководство

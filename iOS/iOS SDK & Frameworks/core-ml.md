@@ -1,9 +1,8 @@
 ---
-title: Core ML
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: core-ml
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Core Ml"
 ---
 
 # Core ML

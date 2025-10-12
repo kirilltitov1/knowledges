@@ -1,9 +1,8 @@
 ---
-title: Network Reachability
-type: thread
-topics: [Networking]
-subtopic: Reachability
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Reachability Offline"
 ---
 
 # Network Reachability

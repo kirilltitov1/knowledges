@@ -1,9 +1,8 @@
 ---
-title: VIPER
-type: thread
-topics: [Architecture]
-subtopic: viper
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "viper"
 ---
 
 # VIPER

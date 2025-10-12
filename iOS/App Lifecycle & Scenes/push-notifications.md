@@ -1,9 +1,8 @@
 ---
-title: Push Notifications
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: push-notifications
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Push Notifications"
 ---
 
 # Push Notifications

@@ -1,9 +1,7 @@
 ---
-title: Memory Index
-type: index
-topics: [Memory Management]
-subtopic: index
-status: draft
+type: "index"
+status: "draft"
+title: "Memory"
 ---
 
 ```dataviewjs

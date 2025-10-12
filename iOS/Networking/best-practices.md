@@ -1,9 +1,8 @@
 ---
-title: Best Practices
-type: thread
-topics: [Networking]
-subtopic: Best Practices
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Best Practices"
 ---
 
 # Best Practices

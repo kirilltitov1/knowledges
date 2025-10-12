@@ -1,13 +1,14 @@
 ---
-title: Custom Notification Center
-type: example
-topics: [Design Patterns, Architecture]
-subtopic: Паттерны проектирования
-level: intermediate
-platforms: [iOS, macOS]
+type: "example"
+topics:
+  - Design Patterns
+  - Architecture
+level: "intermediate"
+platforms: ["iOS", "macOS"]
 ios_min: "13.0"
-status: complete
-tags: [observer-pattern, type-safe, notifications, event-bus]
+status: "done"
+tags: ["observer-pattern", "type-safe", "notifications", "event-bus"]
+title: "Custom Notification Center"
 ---
 
 ## Цель

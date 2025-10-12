@@ -1,9 +1,8 @@
 ---
-title: Error Handling
-type: thread
-topics: [Networking]
-subtopic: Error Handling
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Error Handling"
 ---
 
 # Error Handling

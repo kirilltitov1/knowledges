@@ -1,14 +1,8 @@
 ---
-title: Вопросы по многопоточности и асинхронности для собеседований iOS
-type: guide
-topics: [Concurrency, Multithreading, Interview Preparation]
-subtopic: ios-concurrency-questions
-status: draft
-level: advanced
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "13.0"
-duration: 75m
-tags: [concurrency, multithreading, gcd, async-await, actors, thread-safety, interview-questions]
+type: "guide"
+status: "draft"
+level: "advanced"
+title: "iOS Concurrency Interview Questions"
 ---
 
 # ⚡ Вопросы по многопоточности и асинхронности для собеседований iOS

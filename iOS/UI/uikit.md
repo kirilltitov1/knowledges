@@ -1,14 +1,8 @@
 ---
-title: UIKit
-type: thread
-topics: [UI]
-subtopic: uikit
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "11.0"
-duration: 60m
-tags: [uikit, view-controllers, auto-layout, table-view, collection-view, gestures]
+type: "thread"
+status: "draft"
+summary: ""
+title: "uikit"
 ---
 
 # UIKit

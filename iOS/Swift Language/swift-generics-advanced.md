@@ -1,14 +1,8 @@
 ---
-title: Продвинутые дженерики в Swift - полное руководство
-type: guide
-topics: [Swift Language, Generics, Advanced Topics]
-subtopic: swift-generics-advanced
-status: draft
-level: advanced
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 120m
-tags: [swift-generics, protocols, associated-types, type-erasure, generic-constraints, performance]
+type: "guide"
+status: "draft"
+level: "advanced"
+title: "Swift Generics Advanced"
 ---
 
 # 🔬 Продвинутые дженерики в Swift - полное руководство

@@ -1,9 +1,8 @@
 ---
-title: Deep Linking
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: deep-linking
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Deep Linking"
 ---
 
 # Deep Linking

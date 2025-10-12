@@ -1,9 +1,8 @@
 ---
-title: Caching
-type: thread
-topics: [Networking]
-subtopic: Caching
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "caching"
 ---
 
 # Caching

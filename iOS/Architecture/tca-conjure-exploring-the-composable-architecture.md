@@ -1,12 +1,8 @@
 ---
-title: Exploring the Composable Architecture (Conjure, 2023)
-type: article
-topics: [Architecture, TCA]
-status: draft
-source: https://insight.conjure.co.uk/the-composable-architecture-2eae60963248
-authors: [Ade Adegoke]
-date: 2023-04-06
-related: [redux-tca-the-composable-architecture]
+type: "article"
+status: "draft"
+summary: ""
+title: "Tca Conjure Exploring The Composable Architecture"
 ---
 
 # Exploring the Composable Architecture (Conjure, 2023)

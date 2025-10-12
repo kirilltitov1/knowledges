@@ -1,9 +1,8 @@
 ---
-title: Dependency Managers
-type: thread
-topics: [3rd Party Libraries]
-subtopic: dependency-managers
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Dependency Managers"
 ---
 	### Swift Package Manager (SPM)
 - Package.swift

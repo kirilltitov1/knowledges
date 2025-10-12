@@ -1,9 +1,8 @@
 ---
-title: Testing
-type: thread
-topics: [Networking]
-subtopic: Testing
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Testing Networking"
 ---
 
 # Testing

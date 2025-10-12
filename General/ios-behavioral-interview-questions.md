@@ -1,14 +1,8 @@
 ---
-title: Поведенческие вопросы для собеседований iOS разработчиков
-type: guide
-topics: [Career, Interview Preparation, Soft Skills]
-subtopic: behavioral-interview
-status: draft
-level: intermediate
-platforms: [iOS, Career, Professional Development]
-ios_min: "10.0"
-duration: 60m
-tags: [behavioral-interview, soft-skills, career-development, communication, teamwork]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "iOS Behavioral Interview Questions"
 ---
 
 # 🎭 Поведенческие вопросы для собеседований iOS разработчиков

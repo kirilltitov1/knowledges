@@ -1,9 +1,8 @@
 ---
-title: File System
-type: thread
-topics: [Persistence]
-subtopic: file-system
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "File System"
 ---
 
 # File System

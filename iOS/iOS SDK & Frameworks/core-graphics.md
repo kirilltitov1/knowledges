@@ -1,9 +1,8 @@
 ---
-title: Core Graphics
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: core-graphics
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Core Graphics"
 ---
 
 # Core Graphics

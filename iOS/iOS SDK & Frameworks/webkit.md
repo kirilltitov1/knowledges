@@ -1,9 +1,8 @@
 ---
-title: WebKit
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: webkit
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "webkit"
 ---
 
 # WebKit

@@ -1,9 +1,8 @@
 ---
-title: Apple Developer Program
-type: thread
-topics: [App Store & Distribution]
-subtopic: apple-developer-program
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Apple Developer Program"
 ---
 
 # Apple Developer Program

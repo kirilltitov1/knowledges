@@ -1,7 +1,7 @@
 ---
-title: Memory & ARC
-type: topic
-topics: [Memory & ARC]
+type: "topic"
+status: "draft"
+title: "Memory & ARC"
 ---
 
 # Memory & ARC 📖

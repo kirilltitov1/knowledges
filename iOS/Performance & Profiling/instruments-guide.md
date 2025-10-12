@@ -1,14 +1,8 @@
 ---
-title: Instruments - профилирование производительности iOS
-type: guide
-topics: [Performance & Profiling, Debugging, Optimization]
-subtopic: instruments-profiling
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 90m
-tags: [instruments, profiling, performance-optimization, memory-analysis, cpu-profiling, debugging]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Instruments Guide"
 ---
 
 # 🔍 Instruments - профилирование производительности iOS

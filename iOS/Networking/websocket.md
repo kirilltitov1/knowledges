@@ -1,9 +1,8 @@
 ---
-title: WebSocket
-type: thread
-topics: [Networking]
-subtopic: WebSocket
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "websocket"
 ---
 
 # WebSocket

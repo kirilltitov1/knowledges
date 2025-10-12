@@ -1,9 +1,8 @@
 ---
-title: App Store Connect
-type: thread
-topics: [App Store & Distribution]
-subtopic: app-store-connect
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "App Store Connect"
 ---
 
 # App Store Connect

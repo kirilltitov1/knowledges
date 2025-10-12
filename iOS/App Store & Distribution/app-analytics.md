@@ -1,9 +1,8 @@
 ---
-title: App Analytics
-type: thread
-topics: [App Store & Distribution]
-subtopic: app-analytics
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "App Analytics"
 ---
 
 # App Analytics

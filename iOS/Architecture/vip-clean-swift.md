@@ -1,9 +1,8 @@
 ---
-title: VIP (Clean Swift)
-type: thread
-topics: [Architecture]
-subtopic: vip-clean-swift
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Vip Clean Swift"
 ---
 
 # VIP (Clean Swift)

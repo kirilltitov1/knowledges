@@ -1,9 +1,8 @@
 ---
-title: CloudKit
-type: thread
-topics: [Persistence]
-subtopic: cloudkit
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "cloudkit"
 ---
 
 # CloudKit

@@ -1,14 +1,8 @@
 ---
-title: Шпаргалка по структуре объектов Swift и управлению памятью
-type: cheat-sheet
-topics: [Memory Management, Swift Runtime, Value vs Reference Types]
-subtopic: swift-memory-structure
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 45m
-tags: [swift, memory-structure, value-types, reference-types, arc, copy-on-write]
+type: "cheat-sheet"
+status: "draft"
+summary: ""
+title: "Swift Memory Structure Cheat Sheet"
 ---
 
 # 🧠 Шпаргалка: Структура объектов Swift и память

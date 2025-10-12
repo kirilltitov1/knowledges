@@ -1,9 +1,8 @@
 ---
-title: Core Data
-type: thread
-topics: [Persistence]
-subtopic: core-data
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Core Data"
 ---
 
 # Core Data

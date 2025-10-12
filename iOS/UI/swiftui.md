@@ -1,14 +1,8 @@
 ---
-title: SwiftUI
-type: thread
-topics: [UI]
-subtopic: swiftui
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "13.0"
-duration: 60m
-tags: [swiftui, state-management, navigation, layout]
+type: "thread"
+status: "draft"
+summary: ""
+title: "swiftui"
 ---
 
 # SwiftUI

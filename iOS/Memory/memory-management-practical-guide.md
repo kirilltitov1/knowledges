@@ -1,14 +1,8 @@
 ---
-title: Практическое руководство по управлению памятью в iOS
-type: guide
-topics: [Memory Management, ARC, Performance]
-subtopic: memory-management
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 90m
-tags: [memory-management, arc, retain-cycles, memory-leaks, performance-optimization, instruments]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Memory Management Practical Guide"
 ---
 
 # Практическое руководство по управлению памятью в iOS

@@ -1,14 +1,8 @@
 ---
-title: Memory Debugging
-type: thread
-topics: [Debugging]
-subtopic: memory-debugging
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "11.0"
-duration: 45m
-tags: [instruments, leaks, allocations, zombies, retain-cycles, memory-graph]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Memory Debugging"
 ---
 
 # Memory Debugging

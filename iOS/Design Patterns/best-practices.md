@@ -1,9 +1,8 @@
 ---
-title: Best Practices
-type: thread
-topics: [Design Patterns]
-subtopic: best-practices
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Best Practices"
 ---
 
 # Best Practices

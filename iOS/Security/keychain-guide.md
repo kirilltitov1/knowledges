@@ -1,14 +1,8 @@
 ---
-title: Keychain - безопасное хранение данных
-type: guide
-topics: [Security, Data Protection]
-subtopic: keychain
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "8.0"
-duration: 60m
-tags: [keychain, security, data-protection, encryption, biometric-authentication]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Keychain Guide"
 ---
 
 # 🔐 Keychain - безопасное хранение данных

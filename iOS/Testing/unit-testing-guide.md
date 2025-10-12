@@ -1,14 +1,8 @@
 ---
-title: Unit Testing в iOS - полное руководство
-type: guide
-topics: [Testing, Quality Assurance]
-subtopic: unit-testing
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "9.0"
-duration: 90m
-tags: [unit-testing, xctest, mocking, tdd, test-driven-development, quality-assurance]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Unit Testing Guide"
 ---
 
 # 🧪 Unit Testing в iOS - полное руководство

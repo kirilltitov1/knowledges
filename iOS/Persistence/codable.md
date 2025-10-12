@@ -1,9 +1,8 @@
 ---
-title: Codable
-type: thread
-topics: [Persistence]
-subtopic: codable
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "codable"
 ---
 
 # Codable

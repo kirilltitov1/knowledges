@@ -1,9 +1,8 @@
 ---
-title: App Updates
-type: thread
-topics: [App Store & Distribution]
-subtopic: app-updates
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "App Updates"
 ---
 
 # App Updates

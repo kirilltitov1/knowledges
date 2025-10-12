@@ -1,7 +1,7 @@
 ---
-title: 3rd Party Libraries
-type: topic
-topics: [3rd Party Libraries]
+type: "topic"
+status: "draft"
+title: "3rd Party Libraries"
 ---
 
 # 3rd Party Libraries 📚

@@ -1,9 +1,8 @@
 ---
-title: Interview Preparation
-type: thread
-topics: []
-subtopic: interview
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Interview Preparation"
 ---
 
 # Interview Preparation

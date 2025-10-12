@@ -1,9 +1,7 @@
 ---
-title: Snippets
-type: index
-topics: [iOS]
-subtopic: snippets
-status: draft
+type: "index"
+status: "draft"
+title: "Snippets"
 ---
 
 # Snippets

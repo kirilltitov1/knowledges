@@ -1,7 +1,7 @@
 ---
-title: Accessibility & Localization
-type: topic
-topics: [Accessibility & Localization]
+type: "topic"
+status: "draft"
+title: "Accessibility & Localization"
 ---
 
 # Accessibility & Localization ♿️

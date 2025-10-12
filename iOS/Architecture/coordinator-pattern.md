@@ -1,9 +1,8 @@
 ---
-title: Coordinator Pattern
-type: thread
-topics: [Architecture]
-subtopic: coordinator-pattern
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Coordinator Pattern"
 ---
 
 # Coordinator Pattern

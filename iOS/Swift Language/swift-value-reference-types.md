@@ -1,14 +1,8 @@
 ---
-title: Value Types vs Reference Types в Swift - глубокий анализ
-type: guide
-topics: [Swift Language, Memory Management, Performance]
-subtopic: swift-value-reference-types
-status: draft
-level: advanced
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 90m
-tags: [value-types, reference-types, copy-on-write, arc, memory-management, performance-optimization]
+type: "guide"
+status: "draft"
+level: "advanced"
+title: "Swift Value Reference Types"
 ---
 
 # 🔄 Value Types vs Reference Types в Swift - глубокий анализ

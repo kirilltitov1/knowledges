@@ -1,16 +1,9 @@
 ---
-title: System Design Cheat Sheet
-type: playbook
-topics: [system-design, interview, quick-reference]
-duration: 5m
----
-
-# System Design Cheat Sheet
-
-Краткая шпаргалка для интервью по системному дизайну (quick reference).
-
-> 📖 Полная версия: [[system-design-interview-framework]]
-
+type: "playbook"
+topics: ["system-design", "interview", "quick-reference"]
+status: "draft"
+duration: "5m"
+title: "System Design Cheat Sheet"
 ---
 
 ## ⏱️ Тайминг (60 мин)
@@ -26,7 +19,6 @@ duration: 5m
 ### Альтернативы (быстрые):
 - **45 минут**: 7 → 8 → 15 → 10 → 5
 - **30 минут**: 5 → 7 → 12 → 4 → 2
-
 ---
 
 ## 🎙 Mini Talk Track

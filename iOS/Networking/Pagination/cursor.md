@@ -1,11 +1,9 @@
 ---
-title: Cursor-based Pagination
-type: thread
-topics:
-  - Networking
-summary: Курсорная пагинация (backend-driven, маркер продолжения)
-status: draft
-subtopic: Pagination
+type: "thread"
+topics: ["Networking"]
+status: "draft"
+summary: "Курсорная пагинация (backend-driven, маркер продолжения)"
+title: "cursor"
 ---
 
 ## Контекст

@@ -1,14 +1,8 @@
 ---
-title: JSON на iOS: Codable и практики
-type: thread
-topics: [Networking]
-subtopic: JSON
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "11.0"
-duration: 45m
-tags: [json, codable, jsondecoder, dates, keydecoding, caching, observability]
+type: "thread"
+status: "draft"
+summary: ""
+title: "json"
 ---
 
 ## JSON на iOS: `Codable` и практики

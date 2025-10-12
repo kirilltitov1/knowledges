@@ -1,14 +1,8 @@
 ---
-title: Best Practices
-type: thread
-topics: [Concurrency & Multithreading]
-subtopic: Best Practices
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "13.0"
-duration: 30m
-tags: [best-practices, actors, cancellation, qos, main-thread, testing]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Best Practices"
 ---
 
 # Best Practices

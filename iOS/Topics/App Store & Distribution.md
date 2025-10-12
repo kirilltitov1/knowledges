@@ -1,7 +1,7 @@
 ---
-title: App Store & Distribution
-type: topic
-topics: [App Store & Distribution]
+type: "topic"
+status: "draft"
+title: "App Store & Distribution"
 ---
 
 # App Store & Distribution 🚀

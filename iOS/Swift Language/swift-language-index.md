@@ -1,14 +1,7 @@
 ---
-title: Индекс материалов по языку Swift
-type: index
-topics: [Swift Language, iOS Development]
-subtopic: swift-language-index
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 30m
-tags: [swift-language, collections, generics, optionals, value-types, reference-types, interview-preparation]
+type: "index"
+status: "draft"
+title: "Swift Language Index"
 ---
 
 # 📚 Индекс материалов по языку Swift

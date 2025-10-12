@@ -1,14 +1,8 @@
 ---
-title: Основы языка
-type: thread
-topics: [Swift Language]
-subtopic: section1
-status: draft
-level: beginner
-platforms: [iOS]
-ios_min: "10.0"
-duration: 60m
-tags: [basics, types, optionals, collections, control-flow]
+type: "thread"
+status: "draft"
+summary: ""
+title: "section1"
 ---
 
 # Основы языка

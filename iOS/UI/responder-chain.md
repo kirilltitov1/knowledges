@@ -1,20 +1,9 @@
 ---
-title: Responder Chain (UIKit ↔ SwiftUI) — полный гайд
-type: guide
-topics: [UI, Debugging, Architecture]
-subtopic: responder-chain
-status: draft
-level: advanced
-platforms: [iOS]
-ios_min: "11.0"
-duration: 60m
-tags: [responder-chain, first-responder, uikit, swiftui, key-command, menu, hit-testing, gesture-recognizers]
----
-
-# Responder Chain (iOS, UIKit + SwiftUI интеграция)
-
-Этот документ систематизирует знания о responder chain на уровне senior: от модели и точек входа до конкретных сценариев маршрутизации событий, приоритезации, перехвата и проектных решений в UIKit и SwiftUI.
-
+type: "guide"
+topics: ["UI", "Debugging", "Architecture"]
+status: "draft"
+level: "advanced"
+title: "Responder Chain"
 ---
 
 ## 1) Что такое Responder Chain
@@ -22,7 +11,6 @@ tags: [responder-chain, first-responder, uikit, swiftui, key-command, menu, hit-
 Responder Chain — это динамическая цепочка объектов, способных обрабатывать события (touches, gestures, editing, hardware events, menu/command actions, First Responder forwarding и т.д.). Объект должен наследоваться от `UIResponder` (UIKit) или задействовать соответствующие адаптеры в SwiftUI. Основные типы: `UIWindow`, `UIView`, `UIViewController`, `UIApplication`.
 
 Ключевая идея: событие отправляется текущему кандидату (обычно First Responder). Если он не обрабатывает, оно поднимается вверх по цепочке к следующему звену, пока не будет обработано или отброшено.
-
 ---
 
 ## 2) Откуда начинается цепочка

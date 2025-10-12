@@ -1,14 +1,8 @@
 ---
-title: Вопросы по архитектуре iOS приложений для собеседований
-type: guide
-topics: [iOS Architecture, Design Patterns, Interview Preparation]
-subtopic: ios-architecture-questions
-status: draft
-level: advanced
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 90m
-tags: [ios-architecture, design-patterns, mvvm, viper, clean-architecture, coordinator, interview-questions]
+type: "guide"
+status: "draft"
+level: "advanced"
+title: "iOS Architecture Interview Questions"
 ---
 
 # 🏗️ Вопросы по архитектуре iOS приложений для собеседований

@@ -1,9 +1,8 @@
 ---
-title: App Review
-type: thread
-topics: [App Store & Distribution]
-subtopic: app-review
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "App Review"
 ---
 
 # App Review

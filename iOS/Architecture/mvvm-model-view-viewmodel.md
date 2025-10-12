@@ -1,9 +1,8 @@
 ---
-title: MVVM (Model-View-ViewModel)
-type: thread
-topics: [Architecture]
-subtopic: mvvm-model-view-viewmodel
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Mvvm Model View Viewmodel"
 ---
 
 # MVVM (Model-View-ViewModel)

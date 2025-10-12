@@ -1,7 +1,7 @@
 ---
-title: Tooling & Project Setup
-type: topic
-topics: [Tooling & Project Setup]
+type: "topic"
+status: "draft"
+title: "Tooling & Project Setup"
 ---
 
 # Tooling & Project Setup 🧰

@@ -1,9 +1,8 @@
 ---
-title: SwiftUI App Lifecycle
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: swiftui-app-lifecycle
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Swiftui App Lifecycle"
 ---
 
 # SwiftUI App Lifecycle

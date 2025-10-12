@@ -1,14 +1,8 @@
 ---
-title: REST vs gRPC vs GraphQL — как выбрать на iOS
-type: guide
-topics: [Networking, Architecture]
-subtopic: Comparison
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "13.0"
-duration: 45m
-tags: [rest, grpc, graphql, comparison, performance, caching, streaming]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Rest Vs gRPC Vs Graphql"
 ---
 
 ## REST vs gRPC vs GraphQL — как выбрать на iOS

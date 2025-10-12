@@ -1,13 +1,8 @@
 ---
-title: Responder Chain — Snippets
-type: snippet
-topics: [UI]
-subtopic: responder-chain
-status: draft
-level: advanced
-platforms: [iOS]
-ios_min: "11.0"
-tags: [responder-chain, snippets, first-responder, uikit]
+type: "snippet"
+status: "draft"
+summary: ""
+title: "Responder Chain"
 ---
 
 # Responder Chain — Snippets

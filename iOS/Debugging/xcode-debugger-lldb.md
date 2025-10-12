@@ -1,14 +1,8 @@
 ---
-title: Xcode Debugger (LLDB)
-type: thread
-topics: [Debugging]
-subtopic: xcode-debugger-lldb
-status: draft
-level: intermediate
-platforms: [iOS, macOS]
-ios_min: "11.0"
-duration: 45m
-tags: [lldb, breakpoints, symbolic-breakpoints, watchpoints, scripts]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Xcode Debugger Lldb"
 ---
 
 # Xcode Debugger (LLDB)

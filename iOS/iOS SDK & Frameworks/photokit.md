@@ -1,9 +1,8 @@
 ---
-title: PhotoKit
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: photokit
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "photokit"
 ---
 
 # PhotoKit

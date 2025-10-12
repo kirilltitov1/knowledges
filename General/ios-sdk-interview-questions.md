@@ -1,14 +1,8 @@
 ---
-title: Вопросы по iOS SDK и фреймворкам для собеседований
-type: guide
-topics: [iOS SDK, Frameworks, Interview Preparation]
-subtopic: ios-sdk-questions
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 90m
-tags: [ios-sdk, frameworks, uikit, core-data, networking, graphics, interview-questions]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "iOS Sdk Interview Questions"
 ---
 
 # 📱 Вопросы по iOS SDK и фреймворкам для собеседований

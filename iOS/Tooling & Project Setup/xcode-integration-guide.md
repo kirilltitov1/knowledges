@@ -1,14 +1,8 @@
 ---
-title: Интеграция с Xcode и инструментами разработки
-type: guide
-topics: [Tooling & Project Setup, Xcode, Development Tools]
-subtopic: xcode-integration
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "14.0"
-duration: 60m
-tags: [xcode, debugging, profiling, build-tools, development-workflow]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Xcode Integration Guide"
 ---
 
 # Интеграция с Xcode и инструментами разработки

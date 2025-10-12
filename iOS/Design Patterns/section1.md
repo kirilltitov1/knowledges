@@ -1,9 +1,8 @@
 ---
-title: Антипаттерны
-type: thread
-topics: [Design Patterns]
-subtopic: section1
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "section1"
 ---
 
 # Антипаттерны

@@ -1,9 +1,8 @@
 ---
-title: Structural Patterns (Структурные)
-type: thread
-topics: [Design Patterns]
-subtopic: structural-patterns
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Structural Patterns"
 ---
 
 # Structural Patterns (Структурные)

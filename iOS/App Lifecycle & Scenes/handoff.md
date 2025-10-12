@@ -1,9 +1,8 @@
 ---
-title: Handoff
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: handoff
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "handoff"
 ---
 
 # Handoff

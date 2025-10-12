@@ -1,9 +1,8 @@
 ---
-title: Post-Launch
-type: thread
-topics: [App Store & Distribution]
-subtopic: post-launch
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Post Launch"
 ---
 
 # Post-Launch

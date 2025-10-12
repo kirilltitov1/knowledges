@@ -1,7 +1,7 @@
 ---
-title: App Lifecycle & Scenes
-type: topic
-topics: [App Lifecycle & Scenes]
+type: "topic"
+status: "draft"
+title: "App Lifecycle & Scenes"
 ---
 
 # App Lifecycle & Scenes 🔄

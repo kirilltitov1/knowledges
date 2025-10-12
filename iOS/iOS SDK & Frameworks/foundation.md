@@ -1,9 +1,8 @@
 ---
-title: Foundation
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: foundation
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "foundation"
 ---
 
 # Foundation

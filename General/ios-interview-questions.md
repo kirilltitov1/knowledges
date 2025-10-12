@@ -1,14 +1,8 @@
 ---
-title: Вопросы для собеседований по iOS разработке
-type: guide
-topics: [iOS Development, Interview Preparation, Career]
-subtopic: interview-questions
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 120m
-tags: [interview-questions, job-search, ios-developer, technical-interview, behavioral-questions]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "iOS Interview Questions"
 ---
 
 # 🎯 Вопросы для собеседований по iOS разработке

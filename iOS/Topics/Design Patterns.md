@@ -1,7 +1,7 @@
 ---
-title: Design Patterns
-type: topic
-topics: [Design Patterns]
+type: "topic"
+status: "draft"
+title: "Design Patterns"
 ---
 
 # Design Patterns 🎭

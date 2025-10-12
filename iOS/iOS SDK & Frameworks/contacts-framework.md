@@ -1,9 +1,8 @@
 ---
-title: Contacts Framework
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: contacts-framework
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Contacts Framework"
 ---
 
 # Contacts Framework

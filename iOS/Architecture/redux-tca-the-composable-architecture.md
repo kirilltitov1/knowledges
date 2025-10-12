@@ -1,9 +1,8 @@
 ---
-title: Redux/TCA (The Composable Architecture)
-type: thread
-topics: [Architecture]
-subtopic: redux-tca-the-composable-architecture
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Redux Tca The Composable Architecture"
 ---
 
 # Redux/TCA (The Composable Architecture)

@@ -1,14 +1,8 @@
 ---
-title: Современные возможности Swift - async/await, actors, property wrappers
-type: guide
-topics: [Swift Language, Modern Swift, Concurrency]
-subtopic: swift-modern-features
-status: draft
-level: advanced
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "13.0"
-duration: 120m
-tags: [swift-modern, async-await, actors, property-wrappers, result-builders, swift-5-5, swift-concurrency]
+type: "guide"
+status: "draft"
+level: "advanced"
+title: "Swift Modern Features"
 ---
 
 # ⚡ Современные возможности Swift - async/await, actors, property wrappers

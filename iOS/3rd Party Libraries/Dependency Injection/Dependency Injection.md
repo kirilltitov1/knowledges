@@ -1,10 +1,12 @@
 ---
-title: Dependency Injection — Гайд по выбору (iOS)
-type: thread
+type: "thread"
 topics:
-  - 3rd Party Libraries
-subtopic: Dependency Injection
-status: draft
+  - Users
+  - kirilltitov
+  - DocumentsUsers", "kirilltitov", "Documents"]"
+status: "draft"
+summary: ""
+title: "Dependency Injection"
 ---
 
 # Dependency Injection — Гайд по выбору (iOS)

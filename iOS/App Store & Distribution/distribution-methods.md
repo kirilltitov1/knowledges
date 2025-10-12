@@ -1,9 +1,8 @@
 ---
-title: Distribution Methods
-type: thread
-topics: [App Store & Distribution]
-subtopic: distribution-methods
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Distribution Methods"
 ---
 
 # Distribution Methods

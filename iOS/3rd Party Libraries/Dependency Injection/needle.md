@@ -1,10 +1,8 @@
 ---
-title: Needle — Compile-time DI от Uber
-type: thread
-topics:
-  - 3rd Party Libraries
-subtopic: Dependency Injection
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "needle"
 ---
 
 # Needle

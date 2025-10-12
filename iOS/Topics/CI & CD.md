@@ -1,7 +1,7 @@
 ---
-title: CI & CD
-type: topic
-topics: [CI & CD]
+type: "topic"
+status: "draft"
+title: "CI & CD"
 ---
 
 # CI & CD 🏗️

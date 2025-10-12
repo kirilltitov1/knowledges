@@ -1,6 +1,8 @@
 ---
-title: Glossary
-type: glossary
+type: "glossary"
+status: "draft"
+summary: ""
+title: "Glossary"
 ---
 
 # Глоссарий

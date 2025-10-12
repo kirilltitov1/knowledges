@@ -1,14 +1,8 @@
 ---
-title: Разметка памяти процесса в iOS (ARM64)
-type: guide
-topics: [Memory Management, Low-Level]
-subtopic: process-memory-layout
-status: draft
-level: intermediate
-platforms: [iOS, macOS]
-ios_min: "13.0"
-duration: 30m
-tags: [vmmap, mach-o, segments, stack, heap, text, data]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Process Memory Layout"
 ---
 
 # Разметка памяти процесса в iOS (ARM64)

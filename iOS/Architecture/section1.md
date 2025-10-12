@@ -1,9 +1,8 @@
 ---
-title: Архитектурные принципы
-type: thread
-topics: [Architecture]
-subtopic: section1
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "section1"
 ---
 
 # Архитектурные принципы

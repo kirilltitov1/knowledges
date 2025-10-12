@@ -1,9 +1,8 @@
 ---
-title: Background Modes
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: background-modes
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Background Modes"
 ---
 
 # Background Modes

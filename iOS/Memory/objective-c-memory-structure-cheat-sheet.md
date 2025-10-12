@@ -1,14 +1,8 @@
 ---
-title: Шпаргалка по структуре объектов Objective-C и управлению памятью
-type: cheat-sheet
-topics: [Memory Management, Objective-C Runtime, Low-Level]
-subtopic: objective-c-memory-structure
-status: draft
-level: advanced
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 45m
-tags: [objective-c, memory-structure, isa-pointer, stack-heap, objc-runtime]
+type: "cheat-sheet"
+status: "draft"
+summary: ""
+title: "Objective C Memory Structure Cheat Sheet"
 ---
 
 # 🧠 Шпаргалка: Структура объектов Objective-C и память

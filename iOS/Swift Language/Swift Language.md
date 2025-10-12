@@ -1,9 +1,7 @@
 ---
-title: Swift Language Index
-type: index
-topics: [Swift Language]
-subtopic: index
-status: draft
+type: "index"
+status: "draft"
+title: "Swift Language"
 ---
 
 

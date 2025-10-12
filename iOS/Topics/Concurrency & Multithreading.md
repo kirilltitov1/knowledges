@@ -1,7 +1,7 @@
 ---
-title: Concurrency & Multithreading
-type: topic
-topics: [Concurrency & Multithreading]
+type: "topic"
+status: "draft"
+title: "Concurrency & Multithreading"
 ---
 
 # Concurrency & Multithreading 🚀

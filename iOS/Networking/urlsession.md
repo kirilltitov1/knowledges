@@ -1,14 +1,8 @@
 ---
-title: URLSession
-type: thread
-topics: [Networking]
-subtopic: URLSession
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "11.0"
-duration: 60m
-tags: [urlsession, configuration, background, timeouts, cache-policy, delegates]
+type: "thread"
+status: "draft"
+summary: ""
+title: "urlsession"
 ---
 
 # URLSession

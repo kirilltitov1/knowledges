@@ -1,14 +1,8 @@
 ---
-title: Stack Frames в iOS/Swift — практический гайд
-type: guide
-topics: [Debugging, Low-Level, Memory]
-subtopic: stack-frame
-status: draft
-level: intermediate
-platforms: [iOS, macOS]
-ios_min: "13.0"
-duration: 45m
-tags: [stack, frame, call-stack, lldb, async-await, arm64]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Stack Frame Guide"
 ---
 
 # Stack Frames в iOS/Swift — как это работает

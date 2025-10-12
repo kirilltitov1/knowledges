@@ -1,7 +1,7 @@
 ---
-title: Testing
-type: topic
-topics: [Testing]
+type: "topic"
+status: "draft"
+title: "Testing"
 ---
 
 # Testing 🧪

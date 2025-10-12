@@ -1,9 +1,8 @@
 ---
-title: TestFlight
-type: thread
-topics: [App Store & Distribution]
-subtopic: testflight
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "testflight"
 ---
 
 # TestFlight

@@ -1,9 +1,8 @@
 ---
-title: App Lifecycle
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: app-lifecycle
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "App Lifecycle"
 ---
 
 # App Lifecycle

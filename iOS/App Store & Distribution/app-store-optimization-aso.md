@@ -1,9 +1,8 @@
 ---
-title: App Store Optimization (ASO)
-type: thread
-topics: [App Store & Distribution]
-subtopic: app-store-optimization-aso
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "App Store Optimization Aso"
 ---
 
 # App Store Optimization (ASO)

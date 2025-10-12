@@ -1,14 +1,8 @@
 ---
-title: Reactive Programming
-type: thread
-topics: [Concurrency & Multithreading, Reactive Programming]
-subtopic: Reactive Programming
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "13.0"
-duration: 60m
-tags: [reactive-programming, combine, rxswift, async-sequences, data-binding, ui-updates]
+type: "thread"
+status: "draft"
+summary: ""
+title: "5 Reactive Programming"
 ---
 
 # 5. Reactive Programming

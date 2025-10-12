@@ -1,9 +1,8 @@
 ---
-title: App Privacy
-type: thread
-topics: [App Store & Distribution]
-subtopic: app-privacy
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "App Privacy"
 ---
 
 # App Privacy

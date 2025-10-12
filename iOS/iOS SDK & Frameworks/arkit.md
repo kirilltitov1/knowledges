@@ -1,9 +1,8 @@
 ---
-title: ARKit
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: arkit
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "arkit"
 ---
 
 # ARKit

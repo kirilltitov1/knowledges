@@ -1,9 +1,8 @@
 ---
-title: Shortcuts & Intents
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: shortcuts-intents
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Shortcuts Intents"
 ---
 
 # Shortcuts & Intents

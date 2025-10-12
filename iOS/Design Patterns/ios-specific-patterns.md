@@ -1,9 +1,8 @@
 ---
-title: iOS-Specific Patterns
-type: thread
-topics: [Design Patterns]
-subtopic: ios-specific-patterns
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "iOS Specific Patterns"
 ---
 
 # iOS-Specific Patterns

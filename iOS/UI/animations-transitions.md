@@ -1,14 +1,8 @@
 ---
-title: Animations & Transitions
-type: thread
-topics: [UI]
-subtopic: animations-transitions
-status: draft
-level: advanced
-platforms: [iOS]
-ios_min: "11.0"
-duration: 60m
-tags: [animations, transitions, uikit, core-animation, swiftui]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Animations Transitions"
 ---
 
 # Animations & Transitions

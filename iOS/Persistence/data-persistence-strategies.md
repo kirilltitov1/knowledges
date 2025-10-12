@@ -1,9 +1,8 @@
 ---
-title: Data Persistence Strategies
-type: thread
-topics: [Persistence]
-subtopic: data-persistence-strategies
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Data Persistence Strategies"
 ---
 
 # Data Persistence Strategies

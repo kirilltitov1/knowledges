@@ -1,11 +1,9 @@
 ---
-title: Page-based Pagination
-type: thread
-topics:
-  - Networking
-summary: Классическая постраничная пагинация (page, per_page)
-status: draft
-subtopic: Pagination
+type: "thread"
+topics: ["Networking"]
+status: "draft"
+summary: "Классическая постраничная пагинация (page, per_page)"
+title: "page"
 ---
 
 ## Контекст

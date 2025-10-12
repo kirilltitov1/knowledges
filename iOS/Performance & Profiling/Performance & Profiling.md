@@ -1,9 +1,7 @@
 ---
-title: Performance & Profiling Index
-type: index
-topics: [Performance & Profiling]
-subtopic: index
-status: draft
+type: "index"
+status: "draft"
+title: "Performance & Profiling"
 ---
 
 

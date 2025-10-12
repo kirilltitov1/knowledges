@@ -1,9 +1,9 @@
 ---
-title: Real-time коммуникации в iOS: WebSocket, SSE, Polling, Push и др.
-type: guide
-topics: [Networking]
-subtopic: Real-time
-status: ready
+type: "guide"
+topics: ["Networking"]
+status: "done"
+level: "intermediate"
+title: "Real Time Communications iOS"
 ---
 
 ## Зачем нужен этот гайд

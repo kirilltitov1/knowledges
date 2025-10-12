@@ -1,9 +1,9 @@
 ---
-title: Pagination Strategies
-type: thread
-topics: [Networking]
-summary: Сравнение offset/limit, page, cursor (backend-driven)
-status: draft
+type: "thread"
+topics: ["Networking"]
+status: "draft"
+summary: "Сравнение offset/limit, page, cursor (backend-driven)"
+title: "Pagination Strategies"
 ---
 
 ## Контекст

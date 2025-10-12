@@ -1,9 +1,8 @@
 ---
-title: Core Location
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: core-location
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Core Location"
 ---
 
 # Core Location

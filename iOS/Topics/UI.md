@@ -1,7 +1,7 @@
 ---
-title: UI
-type: topic
-topics: [UI]
+type: "topic"
+status: "draft"
+title: "UI"
 ---
 
 # UI 🎨

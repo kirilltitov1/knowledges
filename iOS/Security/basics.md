@@ -1,10 +1,8 @@
 ---
-title: Security Basics
-type: thread
-topics:
-  - Security
-subtopic: Basics
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "basics"
 ---
 
 # Security Basics

@@ -1,9 +1,8 @@
 ---
-title: Clean Architecture
-type: thread
-topics: [Architecture]
-subtopic: clean-architecture
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Clean Architecture"
 ---
 
 # Clean Architecture

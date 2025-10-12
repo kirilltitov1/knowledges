@@ -1,14 +1,8 @@
 ---
-title: Алгоритмы и структуры данных для собеседований iOS
-type: guide
-topics: [Algorithms, Data Structures, Interview Preparation]
-subtopic: interview-algorithms
-status: draft
-level: intermediate
-platforms: [iOS, Swift, Algorithms]
-ios_min: "10.0"
-duration: 90m
-tags: [algorithms, data-structures, coding-interviews, problem-solving, swift-algorithms]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "iOS Interview Algorithms"
 ---
 
 # 🧮 Алгоритмы и структуры данных для собеседований iOS

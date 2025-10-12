@@ -1,9 +1,8 @@
 ---
-title: Monetization
-type: thread
-topics: [App Store & Distribution]
-subtopic: monetization
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "monetization"
 ---
 
 # Monetization

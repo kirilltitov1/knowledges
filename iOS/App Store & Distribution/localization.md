@@ -1,9 +1,8 @@
 ---
-title: Localization
-type: thread
-topics: [App Store & Distribution]
-subtopic: localization
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "localization"
 ---
 
 # Localization

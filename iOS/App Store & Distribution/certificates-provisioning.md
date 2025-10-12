@@ -1,9 +1,8 @@
 ---
-title: Certificates & Provisioning
-type: thread
-topics: [App Store & Distribution]
-subtopic: certificates-provisioning
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Certificates Provisioning"
 ---
 
 # Certificates & Provisioning

@@ -1,14 +1,8 @@
 ---
-title: 6. Migration & Best Practices
-type: thread
-topics: [Concurrency & Multithreading]
-subtopic: 6. Migration & Best Practices
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "13.0"
-duration: 45m
-tags: [migration, async-await, callbacks, combine, operations, actors]
+type: "thread"
+status: "draft"
+summary: ""
+title: "6 Migration Best Practices"
 ---
 
 # 6. Migration & Best Practices

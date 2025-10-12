@@ -1,7 +1,7 @@
 ---
-title: Debugging
-type: topic
-topics: [Debugging]
+type: "topic"
+status: "draft"
+title: "Debugging"
 ---
 
 # Debugging 🐛

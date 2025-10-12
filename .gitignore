@@ -1,1 +1,66 @@
+# Обсидиан
+.obsidian/
+.obsidian/*
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+__pycache__/
+*.pyc
+*.pyo
+.Python
+env/
+venv/
+ENV/
+
+# Системные файлы
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Резервные копии и скрипты (исключить из репозитория)
+backups/
+*_script.py
+*_scripts.py
+*integration*.py
+*analyzer*.py
+*fix*.py
+
+# Отчеты и временные файлы
+*_report.md
+*_report.json
+*_stats.json
+knowledge_base_stats.json
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Локальные конфигурации
+.env
+.env.local
+.env.*.local
+
+# Кэш и временные данные
+.cache/
+*.cache
+node_modules/
+.npm/
+
+# Логи
+logs/
+*.log
+
+# Тестовые файлы
+test/
+tests/
+*_test.py
+*_spec.py

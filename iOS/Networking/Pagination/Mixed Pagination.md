@@ -1,11 +1,9 @@
 ---
-title: Mixed Pagination (Hybrid)
-type: thread
-topics:
-  - Networking
-summary: Гибридная пагинация (page на UI, cursor под капотом)
-status: draft
-subtopic: Pagination
+type: "thread"
+topics: ["Networking"]
+status: "draft"
+summary: "Гибридная пагинация (page на UI, cursor под капотом)"
+title: "Mixed Pagination"
 ---
 
 ## Контекст

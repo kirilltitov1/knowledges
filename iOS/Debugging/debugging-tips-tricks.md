@@ -1,14 +1,8 @@
 ---
-title: Debugging Tips & Tricks
-type: thread
-topics: [Debugging]
-subtopic: debugging-tips-tricks
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "11.0"
-duration: 30m
-tags: [breakpoints, logging, remote-logging, feature-flags, asserts, debug-builds]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Debugging Tips Tricks"
 ---
 
 # Debugging Tips & Tricks

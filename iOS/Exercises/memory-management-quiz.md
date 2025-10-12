@@ -1,14 +1,8 @@
 ---
-title: Викторина по управлению памятью в iOS
-type: quiz
-topics: [Memory Management, ARC, Testing]
-subtopic: memory-management-quiz
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 30m
-tags: [memory-management, arc, retain-cycles, quiz, self-assessment]
+type: "quiz"
+status: "draft"
+summary: ""
+title: "Memory Management Quiz"
 ---
 
 # 🧠 Викторина по управлению памятью в iOS

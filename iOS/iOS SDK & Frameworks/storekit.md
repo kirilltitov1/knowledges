@@ -1,9 +1,8 @@
 ---
-title: StoreKit
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: storekit
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "storekit"
 ---
 
 # StoreKit

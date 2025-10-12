@@ -1,14 +1,8 @@
 ---
-title: ARC vs MRC
-type: thread
-topics: [Memory Management, ARC]
-subtopic: ARC & MRC
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 30m
-tags: [memory-management, automatic-reference-counting, manual-reference-counting, retain-cycles]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Arc Mrc"
 ---
 
 # ARC vs MRC

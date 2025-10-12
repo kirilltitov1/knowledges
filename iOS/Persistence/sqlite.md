@@ -1,9 +1,8 @@
 ---
-title: SQLite
-type: thread
-topics: [Persistence]
-subtopic: sqlite
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "sqlite"
 ---
 
 # SQLite

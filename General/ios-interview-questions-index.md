@@ -1,14 +1,7 @@
 ---
-title: Индекс вопросов для собеседований iOS разработчиков
-type: index
-topics: [iOS Development, Interview Preparation, Career]
-subtopic: interview-questions-index
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 30m
-tags: [interview-questions, ios-developer, technical-interview, behavioral-interview, system-design, algorithms]
+type: "index"
+status: "draft"
+title: "iOS Interview Questions Index"
 ---
 
 # 🎯 Индекс вопросов для собеседований iOS разработчиков

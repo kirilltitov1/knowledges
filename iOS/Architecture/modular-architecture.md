@@ -1,9 +1,8 @@
 ---
-title: Modular Architecture
-type: thread
-topics: [Architecture]
-subtopic: modular-architecture
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Modular Architecture"
 ---
 
 # Modular Architecture

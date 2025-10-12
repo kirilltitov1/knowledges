@@ -1,14 +1,8 @@
 ---
-title: Responsive Design
-type: thread
-topics: [UI]
-subtopic: responsive-design
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "11.0"
-duration: 45m
-tags: [responsive-design, size-classes, trait-collections, multitasking, dynamic-type]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Responsive Design"
 ---
 
 # Responsive Design

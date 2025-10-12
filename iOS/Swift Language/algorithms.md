@@ -1,14 +1,8 @@
 ---
-title: Algorithms & Complexity
-type: thread
-topics: [Swift Language]
-subtopic: algorithms
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "10.0"
-duration: 90m
-tags: [algorithms, complexity, big-o, data-structures, interview]
+type: "thread"
+status: "draft"
+summary: ""
+title: "algorithms"
 ---
 
 # Algorithms & Complexity

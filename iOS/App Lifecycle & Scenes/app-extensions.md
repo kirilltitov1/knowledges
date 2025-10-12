@@ -1,9 +1,8 @@
 ---
-title: App Extensions
-type: thread
-topics: [App Lifecycle & Scenes]
-subtopic: app-extensions
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "App Extensions"
 ---
 
 # App Extensions

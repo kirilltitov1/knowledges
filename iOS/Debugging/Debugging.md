@@ -1,9 +1,7 @@
 ---
-title: Debugging Index
-type: index
-topics: [Debugging]
-subtopic: index
-status: draft
+type: "index"
+status: "draft"
+title: "Debugging"
 ---
 
 

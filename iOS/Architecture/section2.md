@@ -1,9 +1,8 @@
 ---
-title: Выбор архитектуры
-type: thread
-topics: [Architecture]
-subtopic: section2
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "section2"
 ---
 
 # Выбор архитектуры

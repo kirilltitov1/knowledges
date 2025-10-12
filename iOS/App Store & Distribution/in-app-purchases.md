@@ -1,9 +1,8 @@
 ---
-title: In-App Purchases
-type: thread
-topics: [App Store & Distribution]
-subtopic: in-app-purchases
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "In App Purchases"
 ---
 
 # In-App Purchases

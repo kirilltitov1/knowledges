@@ -1,9 +1,8 @@
 ---
-title: Dependency Injection
-type: thread
-topics: [Architecture]
-subtopic: dependency-injection
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Dependency Injection"
 ---
 
 # Dependency Injection

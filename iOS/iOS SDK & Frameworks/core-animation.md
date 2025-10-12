@@ -1,9 +1,8 @@
 ---
-title: Core Animation
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: core-animation
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Core Animation"
 ---
 
 # Core Animation

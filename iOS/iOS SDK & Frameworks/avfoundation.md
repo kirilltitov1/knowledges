@@ -1,9 +1,8 @@
 ---
-title: AVFoundation
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: avfoundation
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "avfoundation"
 ---
 
 # AVFoundation

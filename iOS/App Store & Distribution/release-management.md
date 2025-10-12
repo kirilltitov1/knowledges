@@ -1,9 +1,8 @@
 ---
-title: Release Management
-type: thread
-topics: [App Store & Distribution]
-subtopic: release-management
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Release Management"
 ---
 
 # Release Management

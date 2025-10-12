@@ -1,10 +1,8 @@
 ---
-title: Authentication
-type: thread
-topics:
-  - Networking
-subtopic: Authentication
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "authentication"
 ---
 
 # Authentication

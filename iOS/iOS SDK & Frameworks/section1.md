@@ -1,9 +1,8 @@
 ---
-title: Другие фреймворки
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: section1
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "section1"
 ---
 
 # Другие фреймворки

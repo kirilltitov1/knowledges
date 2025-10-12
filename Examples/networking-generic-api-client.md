@@ -1,14 +1,12 @@
 ---
-title: Generic API Client
-type: example
-topics: [Networking, Architecture]
-level: intermediate
-platforms: [iOS]
+type: "example"
+level: "intermediate"
+platforms: "[iOS]"
 ios_min: "15.0"
-status: draft
-tags: [urlsession, async-await, endpoint]
+status: "draft"
+tags: ["urlsession", "async-await", "endpoint"]
+title: "Networking Generic API Client"
 ---
-
 ## Цель
 Базовый типобезопасный сетевой клиент c async/await и паттерном Endpoint.
 

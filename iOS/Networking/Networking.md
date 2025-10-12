@@ -1,9 +1,7 @@
 ---
-title: Networking Index
-type: index
-topics: [Networking]
-subtopic: index
-status: draft
+type: "index"
+status: "draft"
+title: "Networking"
 ---
 
 

@@ -1,9 +1,8 @@
 ---
-title: Creational Patterns (Порождающие)
-type: thread
-topics: [Design Patterns]
-subtopic: creational-patterns
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Creational Patterns"
 ---
 
 # Creational Patterns (Порождающие)

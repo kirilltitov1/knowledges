@@ -1,7 +1,7 @@
 ---
-title: Architecture
-type: topic
-topics: [Architecture]
+type: "topic"
+status: "draft"
+title: "Architecture"
 ---
 
 # Architecture 🏛️

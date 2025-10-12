@@ -1,9 +1,8 @@
 ---
-title: HealthKit
-type: thread
-topics: [iOS SDK & Frameworks]
-subtopic: healthkit
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "healthkit"
 ---
 
 # HealthKit

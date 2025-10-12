@@ -1,23 +1,18 @@
 ---
-title: Keychain
-type: thread
-topics: [Persistence]
-subtopic: keychain
-status: draft
----
-
-# Keychain
-
-## Вопросы собеседований
- - Как хранить токены/секреты безопасно (Keychain best practices)?
-
+type: "thread"
+topics:
+  - Users
+  - kirilltitov
+  - DocumentsUsers", "kirilltitov", "Documents"]"
+status: "draft"
+summary: ""
+title: "keychain"
 ---
 title: Keychain
 type: thread
-topics: [Persistence]
+topics: ["Persistence"]
 subtopic: keychain
-status: draft
----
+status: draft---
 
 # Keychain
 

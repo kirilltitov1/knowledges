@@ -1,14 +1,8 @@
 ---
-title: UITableView/UICollectionView — Оптимизация производительности (Senior++)
-type: thread
-topics: [UI]
-subtopic: performance
-status: draft
-level: advanced
-platforms: [iOS]
-ios_min: "13.0"
-duration: 60m
-tags: [performance, uikit, tableview, collectionview, diffable, prefetching, core-animation]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Table Collection Performance"
 ---
 
 # UITableView/UICollectionView — Оптимизация производительности (Senior++)

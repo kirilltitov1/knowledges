@@ -1,14 +1,8 @@
 ---
-title: Опционалы в Swift - полное руководство
-type: guide
-topics: [Swift Language, Optionals, Error Handling]
-subtopic: swift-optionals-comprehensive
-status: draft
-level: intermediate
-platforms: [iOS, macOS, watchOS, tvOS]
-ios_min: "10.0"
-duration: 75m
-tags: [swift-optionals, nil-safety, optional-chaining, optional-binding, error-handling]
+type: "guide"
+status: "draft"
+level: "intermediate"
+title: "Swift Optionals Comprehensive"
 ---
 
 # 🔍 Опционалы в Swift - полное руководство

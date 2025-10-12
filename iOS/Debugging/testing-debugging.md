@@ -1,14 +1,8 @@
 ---
-title: Testing & Debugging
-type: thread
-topics: [Debugging]
-subtopic: testing-debugging
-status: draft
-level: intermediate
-platforms: [iOS]
-ios_min: "11.0"
-duration: 30m
-tags: [xctest, ui-testing, async-testing, performance-testing, screenshots]
+type: "thread"
+status: "draft"
+summary: ""
+title: "Testing Debugging"
 ---
 
 # Testing & Debugging

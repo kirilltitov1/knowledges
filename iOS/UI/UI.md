@@ -1,9 +1,7 @@
 ---
-title: UI Index
-type: index
-topics: [UI]
-subtopic: index
-status: draft
+type: "index"
+status: "draft"
+title: "UI"
 ---
 
 

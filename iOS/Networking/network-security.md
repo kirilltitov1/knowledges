@@ -1,9 +1,8 @@
 ---
-title: Network Security
-type: thread
-topics: [Networking]
-subtopic: Security
-status: draft
+type: "thread"
+status: "draft"
+summary: ""
+title: "Network Security"
 ---
 
 # Network Security
