@@ -9,23 +9,7 @@
   "autoCreateForAttachmentFolder": true,
   "autoCreateForFiles": false,
   "enableCollapsing": false,
-  "excludeFolders": [
-    {
-      "type": "folder",
-      "id": "a4fb8867-a2b1-4d8a-b33e-d1b93caf2089",
-      "path": "iOS/Security",
-      "subFolders": false,
-      "disableSync": false,
-      "disableAutoCreate": false,
-      "disableFolderNote": false,
-      "enableCollapsing": false,
-      "position": 0,
-      "excludeFromFolderOverview": false,
-      "string": "",
-      "hideInSettings": true,
-      "showFolderNote": true
-    }
-  ],
+  "excludeFolders": [],
   "whitelistFolders": [],
   "showDeleteConfirmation": true,
   "underlineFolder": true,
