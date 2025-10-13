@@ -53,8 +53,33 @@ class Person: Object {
 - Migration blocks
 - Automatic migration
 
+```swift
+let config = Realm.Configuration(schemaVersion: 2) { migration, oldVersion in
+    if oldVersion < 2 {
+        // Переименование/инициализация новых полей
+        migration.enumerateObjects(ofType: Person.className()) { _, newObject in
+            if newObject?["age"] == nil { newObject?["age"] = 0 }
+        }
+    }
+}
+Realm.Configuration.defaultConfiguration = config
+let realm = try Realm()
+```
+
 ### Realm Sync
 - MongoDB Realm
 - Real-time sync
 - Conflict resolution
+
+## Практика и производительность
+- Группируйте изменения в одну write‑транзакцию.
+- Используйте `ThreadSafeReference` для передачи объектов между потоками.
+- Избегайте частых уведомлений UI: батчируйте изменения с `beginWrite`/`commitWrite`.
+- Индексируйте часто фильтруемые поля (`@Persisted(indexed: true)`).
+
+## Сравнение с Core Data (когда что выбирать)
+- Realm: быстрый старт, простые модели, live‑обновления/нотификации, кроссплатформенность, встроенный Sync.
+- Core Data: tight интеграция с iOS, NSFetchedResultsController/SwiftUI, тонкая настройка, нативный стек, больше контроля.
+- SQLite/GRDB: максимальная гибкость/производительность/контроль запросов, но больше кода и ответственности.
+
 

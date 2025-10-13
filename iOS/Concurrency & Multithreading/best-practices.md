@@ -8,27 +8,27 @@ title: "Best Practices"
 # Best Practices
 
 
-### Do's ✅
-- Use async/await for new code
-- Isolate mutable state with actors
-- Handle cancellation properly
-- Use appropriate priority/QoS
-- Avoid blocking main thread
-- Use structured concurrency
-- Test concurrent code thoroughly
+### Рекомендуется ✅
+- Использовать async/await для нового кода
+- Изолировать изменяемое состояние с помощью actors
+- Корректно обрабатывать отмену задач
+- Выбирать подходящий приоритет/QoS
+- Не блокировать главный поток
+- Применять structured concurrency
+- Тщательно тестировать конкурентный код
 
-### Don'ts ❌
-- Don't use `DispatchQueue.main.sync` on main thread
-- Don't create unlimited threads
-- Don't ignore race conditions
-- Don't forget to cancel operations
-- Don't mix too many paradigms
-- Don't over-complicate simple tasks
-- Don't forget error handling
+### Не рекомендуется ❌
+- Не вызывать `DispatchQueue.main.sync` из главного потока
+- Не создавать неограниченное число потоков/очередей
+- Не игнорировать data race и условия гонки
+- Не забывать отменять операции/задачи
+- Не смешивать слишком много парадигм одновременно
+- Не усложнять простые задачи
+- Не забывать обработку ошибок
 
-### Common Patterns
-- Coordinator pattern for complex flows
-- Repository pattern with async
-- Service layer with Combine
-- ViewModel with @MainActor
+### Распространённые паттерны
+- Coordinator для сложных флоу
+- Repository с async API
+- Сервисный слой с Combine
+- ViewModel под @MainActor
 

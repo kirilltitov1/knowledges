@@ -2,10 +2,10 @@
 type: "thread"
 status: "draft"
 summary: ""
-title: "2 Gcd Grand Central Dispatch"
+title: "GCD (Grand Central Dispatch) — основы и практики"
 ---
 
-# 2. GCD (Grand Central Dispatch)
+# GCD (Grand Central Dispatch) — основы и практики
 
 
 ### Dispatch Queues
@@ -118,5 +118,52 @@ static let shared = MyClass()
 - Как работает dispatch sync?
 - Зачем нужны барьеры?
 - Писал ли когда-то свой семафор?
+
+## Подводные камни и решения
+
+### Deadlock на main
+```swift
+// ❌ Вызывается из main → взаимная блокировка
+DispatchQueue.main.sync {
+    // ...
+}
+```
+Решение: `DispatchQueue.main.async { ... }` или `await MainActor.run { ... }`.
+
+### Deadlock на той же серийной очереди
+```swift
+let q = DispatchQueue(label: "com.app.q")
+q.async {
+    q.sync { /* ❌ deadlock: sync на ту же очередь */ }
+}
+```
+Решение: избегайте `sync` на собственной очереди; используйте `async` или разнесите ответственность.
+
+### group.wait() в UI
+```swift
+let group = DispatchGroup()
+// ...
+// ❌ Блокировка UI и возможные дедлоки
+group.wait()
+```
+Решение: `group.notify(queue: .main) { ... }`.
+
+### Неправильный QoS / тяжёлая работа на main
+- Переносите CPU-нагрузку на фоновые очереди с подходящим QoS.
+- Избегайте длительных критических секций.
+
+### Autorelease-пул в больших циклах
+```swift
+for item in items {
+    autoreleasepool { process(item) }
+}
+```
+
+## Чек-лист
+- UI — только `main`.
+- Не вызывайте `sync` на той же очереди.
+- Ограничивайте параллелизм (семафор/батчинг) при массовых задачах.
+- Используйте `.barrier` для эксклюзивной записи.
+- Настраивайте QoS осознанно.
 
 

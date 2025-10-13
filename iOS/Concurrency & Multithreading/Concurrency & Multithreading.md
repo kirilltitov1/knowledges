@@ -23,3 +23,19 @@ for (let group of sortedGroups) {
     );
 }
 ```
+
+## Рекомендуемый маршрут чтения
+
+- [[iOS/Concurrency & Multithreading/basics-concurrency|Основы многопоточности]]
+- [[iOS/Concurrency & Multithreading/threads-deep-dive|Threads — Deep Dive]]
+- [[iOS/Concurrency & Multithreading/gcd-grand-central-dispatch|GCD — Grand Central Dispatch]]
+- [[iOS/Concurrency & Multithreading/operation-queue|Operation Queue]]
+- [[iOS/Concurrency & Multithreading/swift-concurrency-modern-approach|Swift Concurrency (Modern)]]
+- [[iOS/Concurrency & Multithreading/patterns-and-architectures|Паттерны и архитектуры]]
+- [[iOS/Concurrency & Multithreading/comparison-and-when-to-use-what|Сравнение и когда что использовать]]
+- [[iOS/Concurrency & Multithreading/interview-questions-concurrency|Вопросы для собеседований]]
+- [[iOS/Concurrency & Multithreading/performance-optimization|Производительность и оптимизация]]
+- [[iOS/Concurrency & Multithreading/pitfalls-concurrency|Проблемы и рецепты]]
+- [[iOS/Concurrency & Multithreading/testing-concurrency|Тестирование]]
+- [[iOS/Concurrency & Multithreading/migration-best-practices|Миграция и best practices]]
+- [[iOS/Concurrency & Multithreading/best-practices|Best Practices]]

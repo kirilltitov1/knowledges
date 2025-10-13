@@ -101,6 +101,87 @@ let category = UNNotificationCategory(
 UNUserNotificationCenter.current().setNotificationCategories([category])
 ```
 
+## ⏰ Local notifications
+
+### Планирование уведомлений
+- Используйте `UNUserNotificationCenter` и `UNNotificationRequest` с нужным триггером.
+
+```swift
+import UserNotifications
+
+func scheduleTimeIntervalLocal(title: String, body: String, seconds: TimeInterval, repeats: Bool = false) async throws {
+    let center = UNUserNotificationCenter.current()
+    let granted = try await center.requestAuthorization(options: [.alert, .badge, .sound])
+    guard granted else { return }
+
+    let content = UNMutableNotificationContent()
+    content.title = title
+    content.body = body
+    content.sound = .default
+    content.badge = NSNumber(value: 1)
+    // iOS 15+: настройка уровня интеррапшна
+    if #available(iOS 15.0, *) { content.interruptionLevel = .active }
+
+    let trigger = UNTimeIntervalNotificationTrigger(timeInterval: max(1, seconds), repeats: repeats)
+    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+    try await center.add(request)
+}
+
+func scheduleCalendarLocal(at dateComponents: DateComponents, title: String, body: String, repeats: Bool = false) async throws {
+    let content = UNMutableNotificationContent()
+    content.title = title
+    content.body = body
+    content.sound = .default
+    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: repeats)
+    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+    try await UNUserNotificationCenter.current().add(request)
+}
+```
+
+### Геофенс‑триггер
+```swift
+import CoreLocation
+import UserNotifications
+
+func scheduleLocationLocal(center: CLLocationCoordinate2D, radius: CLLocationDistance, title: String, body: String) async throws {
+    let content = UNMutableNotificationContent()
+    content.title = title
+    content.body = body
+    content.sound = .default
+
+    let region = CLCircularRegion(center: center, radius: radius, identifier: UUID().uuidString)
+    region.notifyOnEntry = true
+    region.notifyOnExit = false
+    let trigger = UNLocationNotificationTrigger(region: region, repeats: false)
+    let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+    try await UNUserNotificationCenter.current().add(request)
+}
+```
+
+### Вложения, категории, управление
+- Добавляйте `UNNotificationAttachment` (из файлового URL) для изображений/аудио/видео.
+- Управляйте действиями через категории (см. выше) — они одинаково работают и для локальных уведомлений.
+- Управление очередью/историей:
+```swift
+let center = UNUserNotificationCenter.current()
+// Запрос отложенных (не доставленных ещё) уведомлений
+center.getPendingNotificationRequests { requests in
+    // фильтрация/решедулинг/диагностика
+}
+// Получить доставленные (висят в Notification Center)
+center.getDeliveredNotifications { notifications in
+    // аналитика «delivered» для локальных уведомлений
+}
+// Удаление
+center.removeAllPendingNotificationRequests()
+center.removeAllDeliveredNotifications()
+```
+
+### Лучшие практики для локальных
+- Не спамьте: объединяйте события (используйте идентификаторы и `removePendingNotificationRequests` перед перезапланированием).
+- Уважайте фокус/тихие часы: для FYI‑событий используйте низкий уровень прерывания (`.passive`).
+- Для повторяющихся событий используйте календарные триггеры (например, каждый день в 9:00), а не таймеры.
+
 ## 🔔 Alert push (стандартный UI)
 
 ### Payload (бекенд)
@@ -365,6 +446,33 @@ curl -v \
   --data '{"aps":{"alert":{"title":"Новое фото","body":"Открой, чтобы посмотреть"},"mutable-content":1},"media-url":"https://cdn.example.com/images/abc123.jpg","media-type":"image/jpeg"}' \
   https://api.push.apple.com/3/device/$DEVICE_TOKEN
 ```
+
+## 📈 Трекинг доставки и взаимодействий
+
+### Что реально можно отследить
+- "Принято APNs" (server‑side): HTTP‑ответ 200 от APNs + `apns-id`. Это НЕ гарантия доставки на устройство.
+- "Доставлено на устройство" (косвенно):
+  - Запуск Notification Service Extension для rich‑пушей (хороший прокси факта получения устройством).
+  - Отчёты клиента: `UNUserNotificationCenter` — события в `willPresent` (foreground) и `didReceive response` (тап/экшен).
+  - Для локальных: `getDeliveredNotifications` отражает элементы в Notification Center.
+- "Открыто/взаимодействовано": `didReceive response` (category/action/deeplink), отправляйте аналитический бэкон.
+
+### Клиентские маячки (beacons)
+Рекомендуемый контракт payload:
+```json
+{ "aps": { "alert": { "title": "Hi", "body": "..." } }, "eventId": "msg-10231" }
+```
+- При показе баннера в `willPresent` отправьте `delivered` с `eventId`.
+- В Service Extension (если есть) отправьте `received_on_device` с `eventId` + таймстемп.
+- В `didReceive response` отправьте `opened`/`action:<id>` с `eventId`.
+
+### Серверная корреляция
+- Храните маппинг `apns-id` ↔ `eventId` ↔ пользователь. Это позволяет сопоставлять 200‑ответ APNs и клиентские события.
+- На `410 Unregistered`/`400 BadDeviceToken` снимайте токен и логируйте причину.
+
+### Ограничения/нюансы
+- iOS не предоставляет гарантированного системного колбэка «доставлено пользователю». Используйте комбинацию Service Extension + клиентских маячков.
+- Silent push может не запустить приложение; трекается только через `didReceiveRemoteNotification` при фактическом выполнении кода.
 
 ### Retry/Idempotency/Очистка токенов
 - Храните mapping `userId → deviceTokens` с метаданными (локаль, timezone, appVersion, lastSeen).
