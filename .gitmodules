@@ -1,0 +1,3 @@
+[submodule "Career"]
+	path = Career
+	url = git@github.com:kirilltitov1/Career.git
