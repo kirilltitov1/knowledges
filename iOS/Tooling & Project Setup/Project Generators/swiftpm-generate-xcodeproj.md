@@ -16,3 +16,9 @@ Apple удалил `swift package generate-xcodeproj` в пользу натив
 
 
 
+
+
+
+
+
+

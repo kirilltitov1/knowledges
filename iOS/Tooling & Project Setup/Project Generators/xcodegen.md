@@ -71,3 +71,9 @@ xcodegen --spec path/to/project.yml # другой путь
 
 
 
+
+
+
+
+
+
