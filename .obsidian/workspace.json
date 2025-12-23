@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "4a8f6bf1f3c2a2b5",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "a4c6f435d866733c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "iOS/Concurrency & Multithreading/gcd-grand-central-dispatch.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "gcd-grand-central-dispatch"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -33,7 +29,6 @@
       {
         "id": "e0968e36c14b02d1",
         "type": "tabs",
-        "dimension": 76.93194925028835,
         "children": [
           {
             "id": "6d6de7eea927caac",
@@ -73,23 +68,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Закладки"
-            }
-          }
-        ]
-      },
-      {
-        "id": "f96e5a4a43bdcfb2",
-        "type": "tabs",
-        "dimension": 23.068050749711645,
-        "children": [
-          {
-            "id": "aa72a4e9b0b7eeb5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
             }
           }
         ]
@@ -171,16 +149,6 @@
             }
           },
           {
-            "id": "4460f3bfb6797735",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Очередь заметок на повторение"
-            }
-          },
-          {
             "id": "43bf0c470108b3b0",
             "type": "leaf",
             "state": {
@@ -189,9 +157,19 @@
               "icon": "trident-custom",
               "title": "Mermaid Toolbar"
             }
+          },
+          {
+            "id": "202d44f4f83d0358",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Очередь заметок на повторение"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "239f5ca6dc77fae9",
@@ -232,44 +210,44 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6d6de7eea927caac",
   "lastOpenFiles": [
-    "iOS/Concurrency & Multithreading/interview-questions-concurrency.md",
-    "iOS/Concurrency & Multithreading/comparison-and-when-to-use-what.md",
-    "iOS/Concurrency & Multithreading/best-practices.md",
-    "iOS/Concurrency & Multithreading/basics-concurrency.md",
-    "iOS/Concurrency & Multithreading/task-context-storage.md",
-    "iOS/Concurrency & Multithreading/swift-concurrency-modern-approach.md",
-    "iOS/Concurrency & Multithreading/pitfalls-concurrency.md",
-    "iOS/Concurrency & Multithreading/gcd-grand-central-dispatch.md",
-    "iOS/Concurrency & Multithreading/Concurrency & Multithreading.md",
-    "iOS/3rd Party Libraries/Dependency Managers.md",
-    "iOS/3rd Party Libraries/Выбор библиотек.md",
-    "iOS/3rd Party Libraries/Dependency Injection/resolver.md",
-    "iOS/3rd Party Libraries/Dependency Injection/Index.md",
-    "iOS/3rd Party Libraries/Dependency Injection/needle.md",
-    "iOS/3rd Party Libraries/Dependency Injection/Dependency Injection.md",
-    "iOS/3rd Party Libraries/Dependency Injection/factory.md",
-    "iOS/3rd Party Libraries/Dependency Injection/cleanse.md",
-    "iOS/Concurrency & Multithreading/threads-deep-dive.md",
-    "Templates/iOS System Design/Подготовка.md",
-    "Templates/iOS System Design/Примеры кейсов.md",
-    "iOS/Persistence/core-data.md",
-    "iOS/Topics/push-notifications.md",
-    "iOS/Tooling & Project Setup/Project Generators/bazel-rules_xcodeproj.md",
-    "iOS/Tooling & Project Setup/Project Generators/tuist.md",
-    "iOS/Tooling & Project Setup/Project Generators/xcodegen.md",
-    "iOS/Tooling & Project Setup/Project Generators/Project Generators.md",
-    "iOS/Tooling & Project Setup/Project Generators",
-    "normalize_filenames.py",
-    "iOS/Architecture/System Design/Чат и RTC/Массовая рассылка push-уведомлений и трекинг доставок",
-    "iOS/Architecture/System Design/Чат и RTC/Slack — рабочие пространства, треды, поисковый индекс",
-    "iOS/Architecture/System Design/Соцсети и контент/Лента твитов и новостей — ранжирование, фан-аут, дедупликация",
-    "iOS/Architecture/System Design/Соцсети и контент/TikTok — бесконечный видео-фид, адаптивный битрейт",
-    "iOS/Architecture/System Design/Соцсети и контент/Instagram — фото и Stories, лайки, комменты, CDN",
-    "iOS/Architecture/System Design/Потоки данных и аналитика/Реал-тайм аналитика — счётчики, top-K, уникальные (HyperLogLog)",
-    "iOS/Architecture/System Design/Потоки данных и аналитика/Обсервабилити — метрики, логи, трейсы (Prometheus, Tempo, Loki)",
-    "iOS/Architecture/System Design/Потоки данных и аналитика/Feature Store — онлайн и офлайн консистентность для ML-фич",
+    "Career/Tasks/Presentations/WWDC21 10132 — Meet async/WWDC21 10132 — Meet async.md",
+    "Career/Tasks/Presentations/WWDC21 10132 — Meet async await in Swift — задачи.md",
+    "Career/Tasks/Presentations/WWDC21 10254 — Swift concurrency — Behind the scenes — задачи.md",
+    "Career/Tasks/Presentations/WWDC21 10194 — Swift Concurrency — Update a Sample App — задачи.md",
+    "Career/Tasks/Presentations/WWDC24 — What’s new in Swift (YouTube) — задачи.md",
+    "Career/Tasks/Presentations/WWDC24 10169 — Migrate your app to Swift 6 — задачи.md",
+    "Career/Tasks/Presentations/WWDC22 110356 — Meet distributed actors in Swift — задачи.md",
+    "Career/Tasks/Presentations/WWDC22 110350 — Visualize and optimize Swift concurrency — задачи.md",
+    "Career/Tasks/Presentations/WWDC22 110351 — Eliminate data races using Swift Concurrency — задачи.md",
+    "Career/Tasks/Presentations/WWDC21 10254 — Swift concurrency: Behind the scenes — задачи.md",
+    "Career/Tasks/Presentations/WWDC21 10194 — Swift Concurrency: Update a Sample App — задачи.md",
+    "Career/Tasks/Presentations/WWDC23 10170 — Beyond the Basics of Structured Concurrency — задачи.md",
+    "Career/Tasks/Presentations/WWDC22 110355 — Meet Swift Async Algorithms — задачи.md",
+    "Career/Tasks/Presentations/WWDC21 10133 — Protect mutable state with Swift actors — задачи.md",
+    "Career/Tasks/Presentations/WWDC21 10134 — Explore structured concurrency in Swift — задачи.md",
+    "Career/Tasks/Presentations/Презентация swift 6 migration.md",
+    "Career/Tasks/Presentations/WWDC21 10132 — Meet async/await in Swift — задачи.md",
+    "Career/Tasks/Presentations/WWDC21 10132 — Meet async",
+    "Career/Tasks/Presentations/WWDC — Swift Concurrency — задачи по докладам (для серии).md",
+    "Career/Tasks/Presentations/Презентация 1 — Modern Swift Concurrency.md",
+    "Career/Career.md",
+    "Career/Work/Tasks/MediaViewer SDK — 2 недели.md",
+    "Career/Work/Work.md",
+    "Work/Tasks/MediaViewer SDK — 2 недели.md",
+    "Career/Work/Tasks/Tasks.md",
+    "Career/Work/Tasks",
+    "Career/Work",
+    "Work/Work.md",
+    "Work/Tasks/Tasks.md",
+    "Work/Tasks",
+    "Work",
+    "Career/Tasks/Presentations",
+    "Career/Tasks/Artifacts",
+    "Career/Tasks/Algorithms",
+    "Career/Tasks",
+    "Career/Route A — Russia (Staff/Lead",
     "Pasted image 20251009224244.png",
     "Pasted image 20251009225344.png",
     "Pasted image 20251009225205.png",
